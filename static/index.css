@@ -1,13 +1,10 @@
 :root {
   --primary-color: #9e85f6;
   --primary-color-dark: #7856f2;
-  /* --secondary-color: #3D65CE; */
   --bg-color: #f4f8ff;
   --dark-grey-color: rgb(128,128,128);
   --grey-color: #E2E2E2;
-  /* --red: #B20000; */
 
-  --body-font: 'Open Sans', sans-serif;
   --body-font: Cantarell,sans-serif;
   --body-font-letter-spacing: 1px;
   --small-font-size: 12px;
@@ -15,27 +12,14 @@
   --line-height: 20px;
   --important-text-size: 20px;
 
-  --header-font: 'OCRB';
+  --header-font: Canterell,sans-serif;
   --header-font-size: 22px;
   --header-line-height: 24px;
 
   --horizontal-spacing: 30px;
 
-  /* --max-pill-width: 40em; */
-
-  /* NB: CSS vars don't work in media queries */
-  /* --break-small: 500px; */
-  /* --break-large: 850px; */
-
   --column-width: 400px;
   --blog-width: 600px;
-}
-
-@font-face {
-  font-family: 'OCRB';
-  src: url('./OCRB.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
 }
 
 body {
