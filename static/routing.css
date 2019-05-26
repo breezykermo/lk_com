@@ -1,0 +1,36 @@
+.panel.clickable:hover {
+  cursor: crosshair;
+  background-color: var(--bg-color);
+  color: var(--dark-grey-color);
+  border: 2px solid var(--grey-color);
+  /* NOTE: hardcoded against mb-10 */
+  margin-bottom: 8px;
+}
+
+.blog-content {
+  display: none;
+  position: absolute;
+  margin-left: 420px;
+  width: 600px;
+  padding: 0 10px;
+  margin-bottom: 15px;
+}
+
+.blog-radio {
+  display: none;
+}
+
+:checked + label, :checked + .clickable:hover {
+  background-color: var(--dark-grey-color);
+  color: white;
+}
+:checked + label > .blog-meta {
+  color: var(--grey-color);
+}
+:checked + .clickable:hover {
+  border: 1px solid var(--grey-color);
+}
+
+:checked + label + .blog-content {
+  display: block;
+}
