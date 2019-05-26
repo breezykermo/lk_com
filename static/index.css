@@ -91,6 +91,8 @@ ul {
 ul.fancy {
   list-style-image: url('point.png');
   list-style-position: inside;
+  margin-block-start: 0.5em;
+  padding-inline-start: 2px;
 }
 
 li {
