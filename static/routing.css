@@ -11,7 +11,7 @@
   display: none;
   position: absolute;
   margin-left: calc(var(--column-width) + 20px);
-  width: 600px;
+  width: var(--blog-width);
   padding: 0 10px;
   padding-bottom: 150px;
 
