@@ -43,9 +43,9 @@ body {
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
-  width: calc(100% - 30px);
-  max-width: var(--column-width);
-  min-width: var(--column-width);
+  /* width: calc(100% - 30px); */
+  /* max-width: var(--column-width); */
+  /* min-width: var(--column-width); */
   color: black;
 }
 
@@ -144,17 +144,15 @@ input {
 }
 
 .panel {
-  min-width: calc(var(--column-width) - 20px);
-  max-width: calc(var(--column-width) - 20px);
+  /* min-width: calc(var(--column-width) - 20px); */
+  /* max-width: calc(var(--column-width) - 20px); */
+  width: 90%;
   flex-direction: column;
   padding: 10px;
   border: var(--grey-color) solid 1px;
   background-color: white;
 }
 
-.panel.clickable {
-  /* color: black; */
-}
 .panel.clickable:hover {
   cursor: crosshair;
   background-color: var(--bg-color);
