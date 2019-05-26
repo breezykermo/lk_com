@@ -130,6 +130,6 @@
     width: 100%;
   }
   iframe {
-    max-width: var(--column-width) !important;
+    max-width: 95%; 
   }
 }
