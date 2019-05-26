@@ -7,14 +7,14 @@
 
   --body-font: Cantarell,sans-serif;
   --body-font-letter-spacing: 1px;
-  --small-font-size: 12px;
-  --font-size: 16px;
-  --line-height: 20px;
+  --small-font-size: 9pt;
+  --font-size: 12pt;
+  --line-height: 15pt;
   --important-text-size: 20px;
 
   --header-font: Canterell,sans-serif;
-  --header-font-size: 22px;
-  --header-line-height: 24px;
+  --header-font-size: 18pt;
+  --header-line-height: 21pt;
 
   --horizontal-spacing: 30px;
 
