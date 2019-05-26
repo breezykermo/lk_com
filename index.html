@@ -7,38 +7,20 @@
     <meta name="description" content="Lachlan Kermode">
     <meta name="author" content="Lachlan Kermode">
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Cantarell&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="static/index.css">
     <link rel="stylesheet" href="static/routing.css">
   </head>
 
   <body>
-    <div class="header">
-      <div class="panel header-panel">
+    <div id="mobile-header-blocker"></div>
+    <div id="header" class="header">
+      <a href="#" onclick='location.reload(true); return false;' class="panel header-panel">
         <h1>LACHLAN KERMODE</h1>
-      </div>
+      </a>
     </div>
     <div id="content">
-      <!-- COLUMN 1 -->
-      <div id="col-1" class="column">
-        <div class="panel mb-10">
-          <h2>ABOUT</h2>
-          <ul>
-            <li>software lead at <a href="">Forensic Architecture</a>.</li>
-            <li>computer science degree from <a href="">Princeton</a>.</li>
-            <li>co-founder at <a href="">DirectDrinks</a>.</li>
-            <li>principal at <a href="">A.R.G</a>.</li>
-            <li>resident at the <a href="">Sunset Motel</a>.</li>
-          </ul>
-        </div>
-        <div class="panel">
-          <div class="mb-10 mt-10 flex-center">
-            <img class="img-60" src="static/me.png">
-          </div>
-          <p>lives and works in London<br/>
-          <a href="">Keybase</a>; <a href="">Github</a>; <a href="">Twitter</a>.</p>
-        </div>
-      </div>
       <!-- COLUMN 2 -->
       <div id="col-2" class="column">
         <!-- b1 -->
@@ -67,6 +49,288 @@
           <p>There are no longer conflicts amongst the gods. A storm is not Poseidon’s anger, nor is winter Persephone’s absence. They are processual protuberances whose oracle is data; and preferably big data. Life is a laboratory of uncontrolled experiments—not of the gods’ temperaments, but of particles, atoms, and bits.</p>
           <p>Yet science, like many other soothsayers, has not yet proven to explain everything. It continues an impressive epistemological career, from its zealous preamble as mechanical philosophy in the 17th century (see Steven Shapin) to its trusted management and regulation of the Earth’s sensitivities in the 21st. At times it is egotistical, forecasting more than it has license to understand. At these times we are tasked to note, as Thomas Hardy did for the fishes in poetic eulogy of the Titanic: “What does this vaingloriousness down here?”</p>
           <p>Science does not have to be fashioned in opposition to nature, but in its practicalizations it often is. It can be a heady bastard, loathe to accept there are problems it cannot synthesize. Though I trust its good intention, its actions often read as susceptible to the destructive caprices of egocentrism. If it could live with roles that are not so clearly coded ‘black,’ or ‘white,’ it might come to the conclusion that the neighborhood does not need saving. Gotham is a fictional city, as is Metropolis. The dichotomy of hero and villain are never so resolutely coded in real life. Gods can be kind and they can be cruel. </p>
+        </div>
+        <!-- b3 -->
+        <input name="blog" id="b3" type="radio" class="blog-radio"/>
+        <label for="b3" class="panel clickable mb-10">
+          <div class="blog-title">Sweet Tooth (for baristas)</div>
+          <div class="blog-meta">19 April, 2018</div>
+        </label>
+        <div class="blog-content" id="b3-content">
+          <p>A collaboration with Michelle Lord Goldman and Cecily Polonsky. Directed by Jhor van der Horst, edited by David Lopera, and featuring Natalie Plonk, Ben Diamond, Raheem Barnett, and Ysa Ayala.</p>
+          <div style="width: 100%; display: flex; justify-content: center;">
+            <iframe src="https://www.youtube.com/embed/Ae1vcLMPmcg" allow="autoplay; encrypted-media" allowfullscreen="" width="600" height="337.5" frameborder="0"></iframe>
+          </div>
+        </div>
+        <!-- b4 -->
+        <input name="blog" id="b4" type="radio" class="blog-radio"/>
+        <label for="b4" class="panel clickable mb-10">
+          <div class="blog-title">a comparison of Elm and React (in code)</div>
+          <div class="blog-meta">January 22, 2017</div>
+        </label>
+        <div class="blog-content" id="b4-content">
+          <p>Since React’s open source release in 2013, techniques inspired by functional programming have become an integral part of what many consider ‘best practice’ in front-end application development on the web. Functional programming as a concept has been around since the lambda calculus was invented to study computation in the 30s, and it became practicable through Lisp in 1958, and then further through ML in the 70s. Only now, however, is it finding its way into the mainstream. This post investigates functional techniques in contemporary ‘best practice’ front-end development by comparing an application in Elm to its equivalent in React.</p>
+          <p>Disclaimer: <em>I think Elm is a lot more expressive and robust than the React equivalent.</em> </p>
+          <p>What follows is a ‘translation’ of Elm’s syntax to its React equivalent, demonstrating what abstractions are shared between the programming dialects. By contextualizing the approach of each framework within the web’s history and the JS ecosystem, I argue that Elm offers a more concise and expressive syntax for than the ‘best practice’ React application, as both frameworks are intended to be used through the same architectural primitives. In addition, I also provide brief reviews of JS frameworks that employ a similar architecture (which I’ll simply refer to as the ‘Elm architecture’ from this point on), comparing them to Elm and pointing at how Elm is more concise and expressive in comparison, in the same way that it is for React. </p>
+          <p>In order to clearly compare React and Elm, I’ve made a very simple ‘books’ front-end interface that makes an HTTP request, and visualises the returned JSON data (which represents some of the books I’ve read in the last couple of months). The code for these applications, as well as instructions to run them, are available in the folders elm-books and react-books in the following repo:</p>
+          <p style="text-align:center;"><a href="https://github.com/breezykermo/elm-react-books">github.com/breezykermo/react-elm-books</a></p>
+          <p>When referencing code in the following post, I’ll refer to a set of line numbers and the file in which the code can be found, implying the appropriate directory through the filetype. For example, the reference  <a href="https://github.com/breezykermo/elm-react-books/blob/master/elm-books/src/Main.elm#L1">[1-12 Main.elm]</a> refers to lines 1 through 12 in file the file elm-books/src. Alternatively, <a href="https://github.com/breezykermo/elm-react-books/blob/master/react-books/src/App.js#L2">[2,6-8 App.js]</a> refers to line 2 and lines 6 through 8 in the file react-books/src. Links to the relevant code in Github will be provided as they are here.</p>
+          <h2>Background: React</h2>
+          <p>The composition of components in a tree is an intuitive architecture for view interfaces, and some variation of it is implemented on almost every modern application platform that supports a UI. The browser, for example, constructs its view through a tree of HTML nodes. The iPhone and Android platforms use tree-based abstractions such as Views and View Managers to handle the pixels they render on-screen. The application as a whole is usually composed as one large ‘layout’ component that nests several child components (e.g. header, body, footer), each of which in turn may nest their own child components, and so on.</p>
+          <p>In the browser's case, the tree of HTML nodes is represented as a data structure in the JS runtime. This structure is called the Document Object Model, more commonly referred to by its acronym, the DOM. The HTML view can be adjusted by modifying the DOM in the JS runtime, and these DOM updates are then transmitted to the actual HTML component tree. Modifying the HTML through the DOM is relatively computationally expensive, as the web was built on the premise of serving static documents, with JS and the DOM (i.e., the browsers utilities that allow dynamic updates) only added later. It is much less taxing on the browser to run JS that does not access or modify the DOM.</p>
+          <p>We have come to expect much more of the web than static documents in 2017. In the popular imagination, many complex websites are conceived as analogues of native application platforms such as iOS and Android, and are expected to provide the same quality of interactivity and interface. This type of interactive web page is now known as a single-page application (SPA). There is an enormous collection of JS libraries that provide developers with utilities to manage DOM updates at higher levels of abstraction, and more intuitively. The most widely used of these is jQuery, which is a flexible collection of functions that access and update DOM nodes with an arguably more intutive syntax than the base DOM API. In many cases, a library will provide both a strongly opinionated toolkit (collection of functions and classes) for managing the DOM, and also one or more practicable development strategies which promote particular abstractions for managing complexity. We may call these strategic libraries frameworks.</p>
+          <p>A successful framework insulates the developer from the DOM’s technicalities, and allows her to architect an application on higher level primitives than those that the DOM provides. For example, Angular 1.x, maybe the most popular full-bodied framework of the last 5 or 6 years, provides abstractions such as controllers and two-way data binding, along with many others, to allow the developer a Model-View-Controller (MVC) architecture for her applications. Controllers manage a certain scope of DOM nodes and their updates, and two-way data binding facilitates connecting one state of the screen to another state, for example the value of an input node to the text in an h3 tag.</p>
+          <p>There has recently been a revision in the philosophy of DOM access used by many JS frameworks in the ecosystem. In 2013, Facebook open-sourced a JS framework called React, which was being used internally at Facebook. React has since enjoyed widespread adoption as a front-end framework in the tech industry. This crusade is led by its extensive use at well-respected companies like Facebook and Airbnb.</p>
+          <p>React’s core design principle is stated on its website: “the key feature of React is the composition of components.” While frameworks like Angular 1.x were pitched as a holistic framework for the browser, where almost every conceivable part of the application--view declaration, state management, routing, dependency injection, and much more--is handled in some way by the framework, React declares itself only as a way to “build encapsulated components that manage their own state, then compose them to make complex UIs.” It does not strictly opinionated other essential aspects of the SPA, and this flexibility is one of the reasons for its popularity. As I will make clear in later sections, however, despite its interoperability with many types of development, React is designed with an a particular ‘holistic’ SPA architecture in mind.</p>
+          <p>The primary way in which React differs from frameworks like Angular 1.x is in the way that it registers and performs updates to the DOM. The SPA is constantly updating different parts of the DOM, handling side effects such as user input and asynchronously delivered data. In a typical SPA, there are thousands of nodes in the DOM tree. When we recall that the DOM is really optimised for one-time render of documents, not an application of changing frames that updates constantly, it is evidently important that a framework for the browser be economical in the way that it performs DOM updates.</p>
+          <p>As the complexity of applications on the web like Facebook increased, they discovered that “in our sufficiently large codebase, in our sufficiently large company, MVC [gets] really complicated, really quickly [for developers].” The cause of this complexity was the free, decentralised way in which updates to the DOM were being made, and the fact that the application state was distributed across the app in various different sections. As there were a lot of developers working on the codebase, it was very difficult for an individual developer understand exactly what was going on in the part of the application they were working on, because:</p>
+          <ol>
+          <li>The section was able to be modified by other parts of the application.</li>
+          <li>It was very difficult to identify these modifications statically in the code, and even when they were happening in real time it was not always easy to trace which code or event had triggered the change.</li>
+          </ol>
+          <p>Facebook’s solutions to these problems were:</p>
+          <ol>
+          <li>Enforcing a single direction in which data can conceptually ‘flow’ through components for updates: down through the tree of nodes from the top.</li>
+          <li>A central location where all actions relevant to a section of the application are registered, so that all events are traceable.</li>
+          </ol>
+          <p>However, unidirectional data flow (Facebook’s first solution) in a browser SPA is not an immediate solution. In unidirectional data flow, all updates exclusively enter from the top node of the DOM tree, and propagate down through child components. By this method, the <em>entire application</em> needs to re-render on every change. Given that it is computationally expensive to access the DOM via JS, this kind of complete re-render is super expensive.</p>
+          <p>Through what is essentially a very clever hack, React provides developers with the abstraction of unidirectional data <em>and</em> keeps updates performant through the use of a <em>virtual DOM</em>. The virtual DOM is a virtual representation of the actual DOM that is much less expensive to modify, as it does not actually re-render the HTML nodes. With a virtual DOM, React only has to perform its re-render virtually, which is a relatively inexpensive operation. Using a clever diffing algorithm, React then calculates the necessary changes in the real DOM, and then performs those changes without having to re-render the entire real DOM. React’s diffing algorithm is, as it notes in its documentation, “an implementation detail. React could re-render the whole app on every action; the end result would be the same.” React's performant diffing algorithm is this crucial optimization that allows React to compete in performance with frameworks that directly manipulate the DOM, while mantaining the beneficial abstraction of unidirectional data for the developer's peace of mind.</p>
+          <p>At the same time that Facebook released React, they also released Flux, an “application architecture for building user interfaces.” Flux provides state management abstractions that operate well in tandem with React components, as the library is also built around the virtues of functional programming, more specifically immutable data and unidirectional data flow. As John Reppy calls the JS event loop “a poor man’s concurrency” in his book “Concurrent ML”, the Flux architecture might be considered a poor man’s <a href="https://wiki.haskell.org/All_About_Monads#What_is_a_monad.3F">monad</a>. Flux uses stores to represent application state, and flushes this state through a view tree hierarchy (e.g., a network of React components). Modifications to the stores may be made through a set of pre-defined actions, and the stores then emit a change event, to which views (i.e. React components) may subscribe. A library called Redux has become a popular alternative to Flux, as it essentially provided the same beneficial architecture through more powerful functional abstractions. Most notably, it reduces the burden on the developer of managing store subscriptions (a complexity that the developer has to deal with in Flux). In Redux, changes to a store trigger an automatic refresh of the view tree, and the refresh is made efficient by use of the virtual DOM in React.</p>
+          <p>The creator of Redux, Dan Abramov, was explicitly taking cues from the Elm architecture in order to reduce the conceptual complexity of Flux. I will be using Redux alongside React to express the Elm architecture, as React does not provide sufficient abstractions on its own. I will also be using some additional libraries with React and Redux to more expressively mirror the Elm architecture. Immutable.js allows the creation and management of ‘immutable’ objects in JS, which we will use in order to keep ‘immutable’ state in the Redux store. This allows for a more performant update of a large store. Redux-thunk is a library authored by Dan Abramov himself, which allows controlled dispatch of asynchronous actions to the Redux store. I will explain more about how these libraries work as they are used in the examples below.</p>
+          <h2>Foreground: Elm</h2>
+          <p>Though Facebook popularised the notion of unidirectional data flow in the browser through React, they by no means invented it. Nor were they necessarily the first to apply it to web’s domain through the virtual DOM. The idea of unidirectional data as an effective paradigm for state management is, in fact, an idea taken from the functional programming community. In purely functional programs, unidirectional data flow is implicit. There is no conception of ‘two-way’ data as there is in object-oriented programming; programs declaratively produce a result from a given input. In other words, purely functional programs are nothing more than simply referentially transparent functions that take an input and produce a value deterministically. Reducers, the mechanisms that manage updates in the Redux paradigm, are referentially transparent functions that take an input and produce a value deterministically.</p>
+          <p>Elm is a functional language written by Evan Czaplicki for his senior thesis at Harvard in 2012 that was designed as a more robust way of developing GUIs for the browser. Programs are written in its own syntax, and the Elm compiler then produces browser-ready HTML, CSS and JS. As Czaplicki explains in his thesis, “the core language of Elm combines a basic functional language with a small set of reactive primitives”, where “reactive primitives” come from the domain of programming known as functional reactive programming (FRP). Inspired by techniques in functional concurrent languages such as CML, Elm provides the programmer with view abstractions directly comparable with those in React (it also uses a virtual DOM), as well as an elegant and robust approach to management in synchronous updates, data validation, and asynchronous requests. Elm has been actively maintained and developed by Czaplicki since 2012, initially at Prezi from 2013, and now at NoRedInk. Both of these companies actively use Elm in production.</p>
+          <h3>Component Tree</h3>
+          <p>As I have noted, both React and Elm make use of a virtual DOM in order to allow the conceptual re-render of the entire application at each change, while remaining performant in the update context of the DOM. One way in which both frameworks do this is by avoiding the re-computation of pure functions with unchanged inputs. Elm’s concurrent runtime system uses memoization to do exactly thiss. React’s ‘reconciliation’ algorithm—the algorithm React uses to diff the virtual DOM with the DOM—employs a similar technique. This is possible because the functions are deterministic: given an input, they always produce the same output. Though the virtual DOM/DOM diff is conceptually the same in both frameworks, Czaplicki demonstrates Elm’s superior performance and ease of optimisation in the elm-lang blog post, “<a href="http://elm-lang.org/blog/blazing-fast-html-round-two">Blazing Fast Html Round Two</a>.”</p>
+          <p>In terms of their use, ‘components’ in Elm and React are very similar. It is worth nothing that React has three types of components: legacy components, ES6 components, and stateless functional components. The last of these demonstrate the way in which React components can be considered simply as functions <a href="https://github.com/breezykermo/elm-react-books/blob/master/react-books/src/components/Desk.js#L6">[6-17 components / Desk.js]</a>. The most conspicuous difference between Elm and React components is the different syntaxes of HTML markup. React, by convention, uses JSX, a syntactic sugar that allows components to read like HTML elements. Elm, on the other hand, uses a collection of functions, isomorphically named to suit the full set of HTML tags available. Each of these functions takes in two lists as arguments; the first is a list of attributes to be applied to the node, and the second is a list of its nested children. These functions are provided by the elm-lang / html library that ships with Elm. This library also provides similar functions for the relevant attributes that can be applied to each HTML DOM node, such as 'class'. Both provide a functional map utility for lists of components <a href="https://github.com/breezykermo/elm-react-books/blob/master/elm-books/src/Main.elm#L30">[30,62 Main.elm]</a><a href="https://github.com/breezykermo/elm-react-books/blob/master/react-books/src/components/Desk.js#L22">[22 components/Desk.js]</a>, though React requires an added key attribute that is unique from other keys in the containing list, as a marker for its reconciliation algorithm.</p>
+          <p>Perhaps the most notable difference in component specification is the way in which view data is validated. React allows the optional specification of propTypes <a href="https://github.com/breezykermo/elm-react-books/blob/master/react-books/src/components/Shelf.js#L14">[14-16, 25-27 components/Shelf.js]</a>, which will be performed as runtime checks on data that is passed into the components, and which will throw a non-blocking error in the console if the checks fail.</p>
+          <p>Let me quickly digress to talk about data validation in JS generally; responsible manipulation of data in vanilla JS is largely up to the developer. There are various JS utilities that address this concern in JS, such as Flow and TypeScript. Flow is an optional static type checker that can be inserted incrementally into a codebase, and TypeScript is a Java-like superset of JS that is strongly typed. However, it is difficult to use either of this tools fluidly with Immutable.js objects, as both are designed to type check regular JS types, rather than Immutable’s transformed ones. Certain Immutable types, such as Records, provide partial type checking, in that Records can restrict fields to a certain shape. However they do not enforce strict types for the values contained within the shape.</p>
+          <p>In order to synthesise complete type checking in React, I am using a combination of Immutable’s shape enforcement, React’s runtime propType checking, and Flow’s static type checking for functions. When data is in the Redux store, it is validated through Immutable’s incomplete type assertions. When it reaches React, it is converted to JS (a relatively expensive operation, it is important to note, especially for large stores), and then validated in React components through PropTypes, and in functions through Flow. Note also that type definitions need to be repeated across Flow and React’s PropTypes API, which violates the ‘Do not Repeat Yourself’ principle of best practice development. If this sounds complicated, it is because it is--type validation is no simply feat in React.</p>
+          <p>Elm, on the other hand, validates data entirely through its type system. As a strongly typed language, Elm will complain at compile time if the wrong arguments are passed to a function, or if data is used irresponsibly in components or elsewhere. Note that the type alias Book is used in function signatures <a href="https://github.com/breezykermo/elm-react-books/blob/master/elm-books/src/Components/Pure.elm#L29">[29,42,62 Components/Pure.elm]</a>. Type aliases allow the programmer to define their own custom records for elegant function types such as, <code>shelfDisplay : Book -&gt; Html msg</code>. This solution is noticeably both more robust and more elegant than the partial runtime type-checking I have synthesised in React.</p>
+          <h3>Synchronous Updates</h3>
+          <p>In both Elm and Redux, synchronous updates in the view occur reactively. Data expressing the application state is kept in an immutable structure separate from the view tree. Each time the structure is reproduced, the view tree re-renders through a virtual DOM diff. In Elm the structure is called the <em>model</em>, and in Redux it is called the <em>store</em>. </p>
+          <p>Elm’s update function works by restructuring a Msg that possibly contains data, and produces a new model by addressing the previous model from this Msg <a href="https://github.com/breezykermo/elm-react-books/blob/master/elm-books/src/Main.elm#L37">[37-43 Main.elm]</a>. Redux sends actions to the store, which are generated by action creator functions <a href="https://github.com/breezykermo/elm-react-books/blob/master/react-books/src/reducers.js#L21">[21-25, 27-31 reducers.js]</a>. A delivered action reproduces the store’s structure through a reducer function <a href="https://github.com/breezykermo/elm-react-books/blob/master/react-books/src/reducers.js#L33">[33 reducers.js]</a>, which combines the action and its associated data and with the previous state, generating a new structure. Note that in Redux’s reducer, immutable data is not enforced by default, only strongly recommended, though I enforce it by only storing data in the store the Immutable library <a href="https://github.com/breezykermo/elm-react-books/blob/master/react-books/src/reducers.js#L38">[38,39 reducers.js]</a> . I have chosen to use regular JS objects outside the store, for the reason explained above of using Flow to statically type check function arguments.</p>
+          <h3>Async</h3>
+          <p>Elm’s update function also returns an optional <code>cmd</code> <a href="https://github.com/breezykermo/elm-react-books/blob/master/elm-books/src/Main.elm#L34">[34-52 Main.elm]</a> . A <code>cmd</code> allows Elm to perform side effects in its otherwise purely functional environment. Side effects include generating random numbers, and making server requests. When creating the model through the <code>init</code> function <a href="https://github.com/breezykermo/elm-react-books/blob/master/elm-books/src/Main.elm#L15">[15 Main.elm]</a> , Elm allows an initial <code>cmd</code> to be executed <a href="https://github.com/breezykermo/elm-react-books/blob/master/elm-books/src/Main.elm#L22">[22 Main.elm]</a> . <code>Cmd</code>s can then send <code>Msg</code>s to the update function after completing a side effect, for example a <code>NewShelf msg</code> after making an HTTPS request. The <code>cmd</code> is not executed when it is created <a href="https://github.com/breezykermo/elm-react-books/blob/master/elm-books/src/Main.elm#L66">[66-68, Main.elm]</a>, it is only executed when it is passed through the <code>update</code> function <a href="https://github.com/breezykermo/elm-react-books/blob/master/elm-books/src/Main.elm#L34">[34 Main.elm]</a>.</p>
+          <p>Redux-thunk enriches Redux with an analogue of Elm’s <code>cmd</code>s, which it calls ‘thunks’. Thunks are action creators that return a curried function (rather than a JS object), which is then applied at the threshold of the store by middleware <a href="https://github.com/breezykermo/elm-react-books/blob/master/react-books/src/index.js#L11">[11 index.js]</a>. The middleware passes the function a dispatch function, so that the thunk can send its own actions to the store, and a getState function, which returns the store’s state at a given time.</p>
+          <h3>Validating JSON</h3>
+          <p>Because Elm is strongly typed, values that arrive in JSON cannot be used directly. Elm provides a validation library called <a href="http://package.elm-lang.org/packages/elm-lang/core/5.1.1/Json-Decode">Json.Decode,</a> and Czaplicki’s current company, <a href="https://www.noredink.com/">NoRedInk</a>, provides syntactic sugar in a library called <a href="https://github.com/NoRedInk/elm-decode-pipeline">elm-decode-pipeline</a>. Though this explicit decoding may seem laborious to developers who are used to using JSON directly in JS, it provides a data robustness that JS cannot achieve by itself. Many runtime errors that occur in web applications are the result of dud or mistyped data that the application has received from elsewhere, and thus data validation at its entry point makes for a generally more robust application. The Elm type system requires explicit handling of error scenarios, which results in virtually no runtime errors that are the fault of the front-end. (NoRedInk has been running Elm in production for more than a year, and are yet to find a runtime error that traces back to Elm code.)</p>
+          <p>Creating a comparable validation mechanism in JS is possible, though it is laborious to make the checking rigorous, and there is an added layer of conceptual complexity. The developer has to handle the possibility of null values, a complexity that Elm’s decode libraries abstract through the <code>Result</code> type. The formulation is decidedly less elegant in JS <a href="https://github.com/breezykermo/elm-react-books/blob/master/react-books/src/decoders.js">[decoder.js]</a> <a href="https://github.com/breezykermo/elm-react-books/blob/master/elm-books/src/Decoders.elm">[Decoders.elm]</a> . (Note: there is possibly a more robust JS data validation library of this sort out there, please let me know if you know of one!)</p>
+          <h3>Extra Comments</h3>
+          <p>Elm also provides reactive subscriptions to values that vary over time, which are similar to streams in functional programming. These are a very useful higher level abstraction in Elm, and make it easy to create interfaces such as Kris Jenkins’ ‘<a href="https://github.com/krisajenkins/elm-rays">Rays</a>’. I have not implemented subscriptions in JS, though it would be possible to do so through a library such as RxJS, or Ractive.js. <a href="https://github.com/joshburgess/redux-most">This</a> is an interesting project that I haven’t looked at in depth.</p>
+          <h3>Other Libraries</h3>
+          <p>React is largely responsible for popularizing a component architecture with unidirectional data flow, as Facebook’s standing as a prestigious company encouraged many developers to practice web development with the framework (myself included). There are now a range of different libraries that employ this architecture in the JS ecosystem, each of which offers a slightly different angle on the Elm architecture. In this section, I review some of the more interesting libraries in this ecosystem, briefly comparing them to Elm.</p>
+          <h5>Choo</h5>
+          <p>Choo is a framework that provides the Elm architecture in a syntax that much more closely resembles vanilla JS. Choo’s API is almost completely isomorphic with Elm’s. Choo notes its point of difference in its readme: “contrary to elm, choo doesn’t introduce a completely new language to build web applications.” It uses a virtual DOM to perform updates, and employs a component architecture in templated HTML strings, rather than through a custom library (Elm) or JSX (React). It does not provide JSON decoding support.</p>
+          <h5>Vue</h5>
+          <p>Vue provides components to create a view interface, and its own library for unidirectional data flow called Vuex. This is very similar to Redux, though it places a greater emphasis on reactivity. However, Vue does not restrict the developer to this unidirectional data architecture, and it also provides many Angular 1.x features, such as two-way data binding. It provides support for TypeScript, though there are some types that this integration cannot infer. Vue suggests using HTML templates for its view syntax, which look like normal HTML with some extra Vue attributes on certain elements. It also supports JSX. It does not provide JSON decoding support.</p>
+          <h5>Angular 2</h5>
+          <p>Angular 2 is a remake of Angular 1.x using components as the core abstraction. Its API is very similar to React, though it is modelled as an all-purpose framework for creating front-ends, rather than only providing the view, and is a lot bulkier. Angular 2 does not opinionate your state management, much like React. It is possible to implement an application with Elm architecture through ngrx’s ‘store’ library, which is inspired by Redux. Angular 2 enforces use of TypeScript, and as a result is strongly typed. It does provide JSON decoding support, but it is not strictly typed on all values, as Elm is.</p>
+          <h3>Elm as React/Redux generator</h3>
+          <p>I was interested to see if it would be possible to automatically generate a React-Redux application from Elm code, to provide a general solution for creating a React-Redux analogue from an Elm program. This was always going to be mostly an intellectual exercise, as this generator would have dubious utility. As I have shown, Elm applications are more concise, generally more expressive, and more performant than React-Redux applications. Elm enables interop with JS through a language feature called ports, which allow the developer to use external JS libraries by sending necessary values directly to the Elm runtime. Because Elm is interopable with JS, there is no argument for React on the grounds that it has access to a better ecosystem in JS (an argument that often kills web application frameworks that are not written in JS). For me, Elm is an almost categorically better conceptual toolkit for creating robust front-end applications.</p>
+          <p>An Elm generator would only be usable if your developers already knew Elm, and if that were the case there would be no reason why you wouldn’t just use Elm’s compiled output in production. The only practical way a generator might be useful would be in the context of pedagogy. As more developers are familiar with React and Redux than Elm, a systematic way of mapping between Elm and React-Redux programs might provide a valuable learning resource for developers looking to learn Elm from React-Redux (or vice-versa). </p>
+          <p>The <a href="https://github.com/elm-lang/elm-compiler">Elm compiler</a> and most of its associated tooling is written in Haskell, and is available publicly on Github. The compiler operates through the command line tool called <a href="https://github.com/elm-lang/elm-make">elm-make</a>, which takes an Elm file and generates browser-ready JavaScript. Although I was came to understand a lot about the elm-compiler and elm-make codebases, I found it very difficult working efficiently with Haskell’s package and build manager, <a href="https://www.haskell.org/cabal/">cabal</a>. Simple modifications to the codebase can take minutes to build, and as Haskell is strongly typed, I found myself running into type errors simply trying to print values and find my bearing. For these reasons, I was not able to successfully modify the compiler to produce a React-Redux application from an Elm source. However, in the following section, I offer what insights and tools I produced through my investigation of Elm’s source code.</p>
+          <h4>Elm Env</h4>
+          <p>In order to get the elm compiler running from source on my computer, I ran the appropriate installations in a Docker container. Docker is a containerisation platform that provides a system of containers, which can be thought of as light-weight virtual machines. Containers are built from images, which are snapshots of a container’s starting state. I have created a public Docker image for a container in which you may develop and build new versions of the Elm source code. See the following repository for details:</p>
+          <div style="text-align:center;"><a href="https://github.com/breezykermo/elm-env">github.com/breezykermo/elm-env</a></div>
+          <h4>Elm Compiler Docs</h4>
+          <p>Though I was not able to produce a custom generator for the elm-make interface, I learned a lot about the elm-make and elm-compiler codebases, in particular the means by which it generates JS from an Elm program. I have submitted much of what I learned as a pull request to the <a href="https://github.com/elm-community/elm-compiler-docs">elm-compiler-docs</a> repository, a resource for the Elm community that aspires to document the Elm compiler, independent of its creator and maintainer. This is useful for future contributors, as wrapping one’s head around a large codebase is a considerate barrier to entry. It is also useful reference for those looking to create a compiler in Haskell, as the Elm code provides a very good example of how Haskell can be used effectively. The PR can be found at the following repo:</p>
+          <div style="text-align:center;"><a href="https://github.com/elm-community/elm-compiler-docs/pull/3">github.com/elm-community/elm-compiler-docs</a></div>
+          <h4>Elm Make Generators</h4>
+          <p>In addition to the above documentation, I have also created a separate repository with preliminary information on how to generate a custom ‘elm-make’ generator. The elm-compiler and elm-make codebases are wonderful resources for learning about Elm and compilers, as they provide a robust demonstration of how one language might compile to another. Further work here might involve coding generators for a range of different JS frameworks that use the Elm architecture—though I suggest this with the same disclaimer as I did the React-Redux generator; its primary use-case would most probably be as a learning resource.</p>
+          <div style="text-align:center;"><a href="https://github.com/breezykermo/elm-make-generator">github.com/breezykermo/elm-make-generator</a></div>
+          <h3>Works Cited</h3>
+          <p>Reply, John H. Concurrent Programming in ML. Cambridge: Cambridge U Press, 1999. Print.</p>
+          <p>Czaplicki, Evan. Elm: Concurrent FRP for Functional GUIs, 30 March 2012. <a href="https://www.seas.harvard.edu/sites/default/files/files/archived/Czaplicki.pdf">https://www.seas.harvard.edu/sites/default/files/files/archived/Czaplicki.pdf</a> accessed 01/09/17.</p>
+        </div>
+        <!-- b5 -->
+        <input name="blog" id="b5" type="radio" class="blog-radio"/>
+        <label for="b5" class="panel clickable mb-10">
+          <div class="blog-title">the towpath to React and Redux</div>
+          <div class="blog-meta">July 28, 2016</div>
+        </label>
+        <div class="blog-content" id="b5-content">
+          <p>When you visit a URL, you are redirected through the internet to a server somewhere in the world, and code is triggered on that server, prompted by your request. Sometimes that code makes requests elsewhere, retrieving other resources from a database or elsewhere before returning files to your browser, which we can call the <em>client</em>, that made the request. This is how the Facebook page that you see when you visit facebook.com is different from your friends'. Even though you could both be at the same URL; the page is customized at the server-side before it is returned to your browser through the login parameters that you sent.</p>
+          <p>In simpler sites, such as <a href="http://lachlankermode.com/">lachlankermode.com</a><sup id="fnref-1"><a href="#fn-1" class="footnote-ref">1</a></sup>, when there are no required exterior resources and no customization, the server simply directly returns HTML, CSS and Javascript files to your browser. Browsers have been programmed to interpret these filetypes. They know how to render in color and glory the wonderful web pages that we can browse on the internet. This was really the paradigm in which the web was originally designed; it was built as a forum for the retrieval and consequent display of HTML documents.</p>
+          <p>However, we have come to expect much more of the web in 2016. Sites ought to be dynamic, viewable and beautiful from many different shapes and sizes of device, and they should interactively update based on where I click, swipe and hover. Back in 1994, <a href="http://speakingjs.com/es5/ch04.html">Brendan Eich created Javascript</a> at Netscape. Javascript was conceived to run in the browser on the client side to make the experience of the web more dynamic: through Javascript, the browser could partially update and modify HTML documents in response to events, such as clicks and hovers. Event handlers in Javascript could also asynschronously request resources across the web, read and write to the user's local file system, among many other capabilities.</p>
+          <p>Javascript's relationship with the original conception web of documents is really the core of how the web works today. It enables the dynamic experience of data and documents that we expect and encounter every time we open a browser. The web is more than just an organically organized global file cabinet; it is an enormous network of theatrical data exhibitions that personally interact with each visitor, exhibitions that communicate with each other in non-trivial ways.</p>
+          <p>The web's origin and history are inscribed in its practice today. The exhibitions we call websites are built on top of original document structure of the web, and the friction between what the web was and what it has become is keenly felt by those of us who develop on its platform. Programming for browsers, which we can more technically call the <em>Document Object Model</em> (or the <em>DOM</em>), is a matter of negotiating many minute updates to an HTML document in response to a range of events, all computed against the dimension of time<sup id="fnref-3"><a href="#fn-3" class="footnote-ref">3</a></sup>.</p>
+          <p>Libraries like <a href="https://jquery.com/">jQuery</a> emerged to provide ways of managing these updates and manipulations, and they were soon followed by frameworks like <a href="https://angularjs.org/">AngularJS</a> and <a href="http://backbonejs.org/">Backbone</a>, which offer extensive suites replete with solutions to the common and immediate complexities of developing with the DOM in Javascript. Equipped with these tools, developers were able to build softer, warmer single-page-application flesh around the web's document bones. The experience of HTML in the DOM grew into the performative and interactive showcase we know and adore day-to-day in our quotidian rituals.</p>
+          <p>But as applications like Facebook became larger and larger, and increasingly complex, developers discovered that it was very hard to keep track of everything that was being updated on each event. Developers found that in attempting to change one thing, often something that seemed simple and straightforward, they would routinely break some other part of the system. In more complex applications, it was difficult to know which events were being triggered where, or how exactly data was being fed into the DOM.</p>
+          <p>In this era of complexity, unidirectional data flow was born, pomaded by a sexy midwife, <a href="https://facebook.github.io/react/index.html">React</a>. The basic idea of unidirectional data flow is explicitly simple: data should flow in one direction conceptually for the developer, so that it is easy to keep track of. Updates to the DOM ought to be administed one at a time, in a traceable way, and preferably from one single source of truth, so that the range of updates and insertions are transparent to the developer. Parts of the DOM should not be able to reach out to a distant cousin of the DOM and change it without telling anything else. <a href="https://facebook.github.io/react/index.html">React</a> is a very popular library that breaks up the view layer of an application into citizens that listens for changes from some authority, and it calls these citizens components.</p>
+          <p>A React component is rendered with a set of input values which are called <em>props</em>. Each time the props for a component changes, the entire component re-renders. In other words, a React component is a UI expression of the data that is passed into it. When the input data changes, the function is called again with the new data. React components can call functions that make or request changes to an external store, from which they then in turn receive their props. Data flows in one direction, and can always be intercepted and explicitly monitored in the application state<sup id="fnref-4"><a href="#fn-4" class="footnote-ref">4</a></sup>.</p>
+          <p><img src="/static/react1.png" alt="One Way Data Flow"></p>
+          <p>React's conceptual simplicity is made performant through some very clever way of hacking the DOM's core architecture. Because the DOM was designed to render entire documents, it is not really very good at making incremental changes to those documents, and therefore as developers we want to limit DOM updates to those that are necessary; we don't want to overwrite parts of the DOM with nodes to refresh entire components in the DOM when only a small part of the UI has changed.</p>
+          <p>React affords developers the conceptual benefit of full component re-rendering, but also only makes necessary changes to the DOM by using a <em>virtual DOM</em>. When a component's props change, the virtual DOM handles the component re-render in a less computationally expensive virtual arena, and then uses a <a href="https://facebook.github.io/react/docs/reconciliation.html">clever diffing algorithm</a> to determine which specific updates need to be made in the real DOM. This wonderful abstraction mediates between the developer's experience of application development and the DOM's anatomical requirements.</p>
+          <p>A core contributor to React's popularity in the web development community is the canon of state management solutions that is conceived alongside React itself; architectures for the external store to which React components subscribe and from which they receive their props. The most popular of these at the moment is <a href="https://github.com/reactjs/redux">Redux</a>, a library written by <a href="https://github.com/gaearon">Dan Abramov</a> inspired by techniques in Elm and other functional programming languages. Redux offers a very robust architecture for managing the external store in React applications.</p>
+          <p><img src="/static/react2.png" alt="Redux Architecture"></p>
+          <p>Redux popularity skyrocketed after Dan Abramov <a href="https://www.youtube.com/watch?v=xsSnOQynTHs">demonstrated what was possible</a> in the way of developer tools--explicit changelogs, hot reloading, and even time travel. Redux became the most popular <a href="https://facebook.github.io/flux/">Flux</a> implementation, Facebook's suggested solution for managing state in React applications. One of the keys to Redux's popularity is its extensibility. It is an architecture for state management, not an already constructed building you have to drop into your application. Managing updates to the store from asynchronous data sources, for example, is not a prebuilt capability in Redux, it rather has <a href="https://github.com/gaearon/redux-thunk">several</a> possible <a href="https://github.com/yelouafi/redux-saga">solutions</a>.</p>
+          <p>React's ethos of hacking existing anatomy to ease cognitive burden for the developer is unsurprisingly popular in the developer community, as it makes programming applications easier and, more importantly, more fun. This ethos has found its way to mobile development as well, in <a href="https://facebook.github.io/react-native/">React Native</a>. React Native allows you to write native mobile applications for iOS and Android in Javascript using React, by running a Javascript thread alongside the native language (Objective C for iOS and Java for Android). These threads communicate with each other through a bridge, over which data and event notifications are passed. This allows React Native to leverage the perfomance of native UI views and code for computationally expensive operations, and to program less expensive application logic on the Javascript thread through React. <a href="https://www.smashingmagazine.com/2016/04/consider-react-native-mobile-app/">There are potential benefits here</a> for developer cognitive burden and experience, just as in React for the web.</p>
+          <p>React and its contingent libraries are most interesting to me not as ways to improve iteration or application stabilty in industry software development (the standard evangelizations of React), but as a robust and elegant philosophy for dealing with complexity. If there is anything I can believe in, any concept of 'productivity' that seems worth striving for, it is simplifying complexity. This is one of the reasons I like programming; programming is the practice of using abstraction to manage complex anatomies, often otherwise unassailable. This is possibly the imperative of all thought we inscribe as meaningful--science, philosophy, political science, literature, music--it all looks to 'explain': to rethink complex anatomies via 'simpler' abstractions, thought configurations that are more sympathetic with the current river of our consciousness<sup id="fnref-5"><a href="#fn-5" class="footnote-ref">5</a></sup>.</p>
+          <div class="footnotes">
+          <hr>
+          <ol>
+          <li id="fn-1">
+          <p>Shameless plug; this is my website after all.</p>
+          <a href="#fnref-1" class="footnote-backref">↩</a>
+          </li>
+          <li id="fn-3">
+          <p>Programming languages have lots of interesting ways of abstracting time (or asynchronous operation) for the developer, and Javascript is no exception. The language's most recent specification, <a href="http://www.ecma-international.org/ecma-262/6.0/">ES2015</a>, includes callbacks, promises and generators, to name a few.</p>
+          <a href="#fnref-3" class="footnote-backref">↩</a>
+          </li>
+          <li id="fn-4">
+          <p>Note that React also provides a solution for storing and redistributing data, the <code>state</code> of a React component. React components can hold state and modify parts of the DOM within their own assigned territory; but the core philosophy of React wants to defer most authority to a higher truth. React component <code>state</code> is a capability that allows distribution of authority within reasonable constraint. It's overwrought and possibly melodramatic to defer <em>every little update</em> to a centralized control station.</p>
+          <a href="#fnref-4" class="footnote-backref">↩</a>
+          </li>
+          <li id="fn-5">
+          <p>Thanks to Daniel, Karina and Kevin for reviewing this article and providing feedback.</p>
+          <a href="#fnref-5" class="footnote-backref">↩</a>
+          </li>
+          </ol>
+          </div>
+        </div>
+        <!-- b6 -->
+        <input name="blog" id="b6" type="radio" class="blog-radio"/>
+        <label for="b6" class="panel clickable mb-10">
+          <div class="blog-title">i wear you when it's cold</div>
+          <div class="blog-meta">19 November, 2015</div>
+        </label>
+        <div class="blog-content" id="b6-content">
+          <iframe src="https://www.youtube.com/embed/KzVKYOB4bnU" allowfullscreen="" width="600" height="450" frameborder="0"></iframe>
+          <p>a ghost fell from a chimney i<br>
+            was looking at through drunken eyes<br>
+            the skin that kept your body<br>
+            frightened mine</p>
+          <p>the ghost in evening wore on i<br>
+            was turned on by the empty eyes<br>
+            the skin that kept your body<br>
+            came alive</p>
+          <p>as i bared your body naked<br>
+            i was thirsting for its pulse<br>
+            i'm a madman you're a shadow<br>
+            and there's no-one else involved<br>
+            for the others this is all a game<br>
+            but i took your ghost home</p>
+          <p>in the dark they call a ballroom i<br>
+            can steal my glances secretly<br>
+            cause we were art that i was<br>
+            there to see</p>
+          <p>and with desperate digits shaking i<br>
+            am tearing down this wall of skin<br>
+            this throbbing will subside when i'm a<br>
+            skeleton</p>
+          <p>i have kept your skin a secret<br>
+            i am hiding from its pulse<br>
+            i'm a madman you're a shadow<br>
+            and i wear you when it's cold<br>
+            for the others this is just a game<br>
+            but i took your ghost home</p>
+          <p>when the play was over i<br>
+            rejoined the crowd to find my mind<br>
+            my bones were quiet, but<br>
+            i'm still alive</p>
+          <p>they are students drunken hungry i<br>
+            am hidden by the haunted eyes<br>
+            my bones are quiet, even<br>
+            in the lights</p>
+          <p>when i bared my body naked<br>
+            i couldn't feel its pulse<br>
+            they are madmen i'm a shadow<br>
+            and i'm wearing all your souls<br>
+            come and watch we'll fuck ourselves<br>
+            the tickets have been sold</p>
+        </div>
+        <!-- b7 -->
+        <input name="blog" id="b7" type="radio" class="blog-radio"/>
+        <label for="b7" class="panel clickable mb-10">
+          <div class="blog-title">essential SAT revision</div>
+          <div class="blog-meta">31 October, 2015</div>
+        </label>
+        <div class="blog-content" id="b7-content">
+          <h2>Section 7</h2>
+          <h1>Reading Comprehension</h1>
+          <hr>
+          <p><em>You have 10 minutes to complete this section.</em>
+          <em>Read the following passage thoroughly, and then answer the following questions.</em></p>
+          <blockquote>
+          <p>By introducing the concept of poiesis, and by unearthing the presence of the phenomenon in traditional artisanship, Heidegger is suggesting that even though technological thinking was a possibility in pre-modern society, it was neither the only nor the dominant mode of bringing-forth. So what has changed? Heidegger argues that what is distinctive about enframing as an ordaining of destining is (i) that it “drives out every other possibility of revealing” (<em>Question Concerning Technology</em>, pg 332), and (ii) that it covers up revealing as such (more precisely, covers up the concealing-unconcealing character of appropriation), thereby leaving us blind to the fact that technology is, in its essence, a clearing. For Heidegger, these dual features of enframing are intimately tied up with the idea of technology as metaphysics completing itself. He writes: “[a]s a form of truth [clearing] technology is grounded in the history of metaphysics, which is itself a distinctive and up to now the only perceptible phase of the history of Being” (<em>Letter on Humanism</em>, pg 244). According to Heidegger, metaphysics conceives of Being as a being. In so doing, metaphysics obscures the concealing-unconcealing dynamic of the essential unfolding of Being, a dynamic that provides the a priori condition for there to be beings. The history of metaphysics is thus equivalent to the history of Western philosophy in which Being as such is passed over, a history that, for Heidegger, culminates in the nihilistic forces of Nietzsche's eternally recurring will-to-power. The totalizing logic of metaphysics involves the view that there is a single clearing (whatever it may be) that constitutes reality. This renders thought insensitive to the fundamental structure of Being, in which any particular clearing is ontologically co-present with the unintelligible plenitude of alternative clearings, the mystery. With this totalizing logic in view, enframing might be thought of as the ordaining of destining that establishes the technological clearing as the one dominant picture, to the exclusion of all others. Hence technology is metaphysics completing itself.<sup id="fnref-1"><a href="#fn-1" class="footnote-ref">1</a></sup></p>
+          </blockquote>
+          <hr>
+          <p><strong>Question 1</strong>
+          <em>Which statement best describes the author's opinion in this passage?</em></p>
+          <ol>
+          <li>Heidegger should be credited with the invention of poetry (poiesis).</li>
+          <li>We will only be able to understand Heidegger when our technology is more advanced.</li>
+          <li>Nietzsche's philosophy is better than Heidegger's.</li>
+          <li>Neither Nietzsche nor Heidegger should be taken seriously because they were both dirty heathens.</li>
+          <li>The author was forced by his father to become an academic when all he ever wanted to be as a young boy was a dancer.</li>
+          </ol>
+          <p><strong>Question 2</strong>
+          <em>In sentence 6, what is meant by the phrase, "metaphysics concieves of Being as a being"?</em></p>
+          <ol>
+          <li>In being redundant, the author is making a joke.</li>
+          <li>Metaphysics is belittling 'Being' by refusing to capitalize its first letter.</li>
+          <li>'Being' is a German word that we are not meant to understand.</li>
+          <li>The author is demonstrating that Metaphysics is stupid because it does not know how to spell.</li>
+          <li>The author is demonstrating that Heidegger is stupid because he does not know how to spell.</li>
+          </ol>
+          <p><strong>Question 3</strong>
+          <em>In sentence 8, which word best replaces "will-to-power"?</em></p>
+          <ol>
+          <li>Twaddle</li>
+          <li>Fascism</li>
+          <li>Flatulence</li>
+          <li>Erectile Dysfunction</li>
+          <li>Need-To-Pee</li>
+          </ol>
+          <p><strong>Question 4</strong>
+          <em>According to this passage, what is "enframing"?</em></p>
+          <ol>
+          <li>The process of protecting a picture and putting it on your wall at home.</li>
+          <li>A euphemism for 'masturbating'.</li>
+          <li>The Catholic Church's way of tricking you into giving them money.</li>
+          <li>Blaming someone else for your sins in order to get into Heaven.</li>
+          <li>The methodology by which pictures are preserved in Heaven.</li>
+          </ol>
+          <p><strong>Question 5</strong>
+          <em>How do you think Heidegger would react if he read this passage?</em></p>
+          <ol>
+          <li>He would thoroughly enjoy it, and offer the author a small packet of chocolate for his troubles.</li>
+          <li>He would spit on the paper in disgust.</li>
+          <li>He would spit on the paper in disgust, tear it into small, tiny pieces, and throw them at the children skipping past on their way to school.</li>
+          <li>He would spit on the paper in disgust, tear it into small, tiny pieces, and throw them at the children skipping past on their way to school, and then chase those children down the road covered in flour from his kitchen.</li>
+          <li>This is a trick question; Heidegger cannot read.</li>
+          </ol>
+          <hr>
+          <div class="footnotes">
+          <hr>
+          <ol>
+          <li id="fn-1">
+          <p>wheeler, michael. '<em>martin heidegger</em>'. '<strong>the stanford encyclopedia of philosophy</strong>'      ed. edward n. zalta, url. <a href="http://plato.stanford.edu/archives/fall2015/entries/heidegger/#Tec">http://plato.stanford.edu/archives/fall2015/entries/heidegger/#Tec </a></p>
+          <a href="#fnref-1" class="footnote-backref">↩</a>
+          </li>
+          </ol>
+          </div>
+        </div>
+      </div>
+      <!-- COLUMN 1 -->
+      <div id="col-1" class="column">
+        <div class="panel mb-10">
+          <h2>ABOUT</h2>
+          <ul>
+            <li>software lead at <a href="https://www.forensic-architecture.org/">Forensic Architecture</a>.</li>
+            <li>computer science degree from <a href="https://www.princeton.edu/">Princeton</a>.</li>
+            <li>co-founder at <a href="https://directdrinks.com.au/">DirectDrinks</a>.</li>
+            <li>principal at <a href="https://argnotes.club/">A.R.G</a>.</li>
+            <li>resident at the <a href="http://www.sunsetmo.tel/">Sunset Motel</a>.</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <div class="mb-10 mt-10 flex-center">
+            <img class="img-60" src="static/me.png">
+          </div>
+          <p>lives and works in London<br/>
+          <a href="https://keybase.io/lachlankermode">Keybase</a>; <a href="https://github.com/breezykermo">Github</a>; <a href="https://twitter.com/lachlankermode">Twitter</a>.</p>
         </div>
       </div>
     </div>
