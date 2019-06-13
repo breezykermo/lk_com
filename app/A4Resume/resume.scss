@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+$bodyFont: 'Oxygen', sans-serif;
+$textColor: black;
+
+.innerMarkdown {
+  color: $textColor !important;
+  line-height: 20px !important;
+  font-size: 14px !important;
+  padding-right: 10px !important;
+
+  p {
+    color: $textColor !important;
+    font-family: $bodyFont;
+    line-height: 18px;
+    font-size: 12px;
+  }
+}
+
+li {
+  color: $textColor !important;
+  font-family: $bodyFont;
+  line-height: 20px;
+}
+
+span, h1, h2, h3 {
+  color: $textColor;
+}

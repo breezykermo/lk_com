@@ -1,0 +1,107 @@
+{
+  "header": {
+    "name": "lachlan kermode",
+    "profession": "frontend / full stack engineer"
+  },
+  "details": {
+    "website": "www.lachlankermode.com",
+    "email": "lachiekermode@gmail.com"
+  },
+  "skills": {
+    "languages": [
+      "English",
+      "JavaScript [HTML, CSS]",
+      "Python, Julia",
+      "Italian",
+      "Elm, Elixir, OCaml",
+      "Swift, Objective C",
+      "C, Rust",
+      "Golang",
+      "Java",
+      "Latin",
+      "Assembly"
+    ],
+    "frameworks+": [
+      "React, React Native [Redux]",
+      "VueJS, Elm [functional frontend]",
+      "HTTP/S JS/Python [express, flask]",
+      "MySQL, Postgres, MongoDB",
+      "Docker, VM- and container-ware",
+      "Tensorflow, PyTorch, Kubernetes",
+      "AWS, Digital Ocean",
+      "Maya [3-D modeling, animation]"
+    ],
+    "misc | other": [
+      "PIIRS Undergraduate Research Fellow, Berlin 2017",
+      "Burda Hackday Munich 2016, 1st",
+      "BICLazio Hack Rome 2015, 1st",
+      "HackZurich 2015, Dropbox API Prize and Top 25",
+      "HackZurich 2017, Top 25",
+      "Advisory Board, Paideia Institute for Humanistic Study",
+      "TEFL Certified Teacher",
+      "Outward Bound, Anakiwa NZ",
+      "Ian Turner Cup for Best All Rounder, Auckland Grammar 2012",
+      "Auckland University Latin Speaking 2012, 1st Place"
+    ]
+  },
+  "sections": [
+    {
+      "title": "interests",
+      "content": "Originally from New Zealand; interested in the aesthetics and politics of computing infrastructure, computer history, and other ways of thinking computing critically. I run a [bi-weekly technology studies reading group](https://argnotes.club/) in London. I have a [debut solo EP](https://open.spotify.com/album/4QArUFWoCa3NHP70W3dOEI) on Spotify 2016; [Princeton Footnotes](http://princetonfootnotes.com/) 2013-18; music director/actor in Princeton musicals 2013-2018; writer for the [Triangle Show](http://www.triangleshow.com/) 2013-2018; NZ Waterpolo representative 2012, Princeton Men's WP 2014."
+    },
+    {
+      "title": "experience",
+      "pills": [
+        {
+          "left": "July 2018-present",
+          "body": {
+            "title": "Forensic Architecture: software lead",
+            "content": "I direct engineering for several full stack platforms and machine learning workflows. I also sit on our data management committee for digital security, and offer expertise across investigations that are computer oriented. See forensic-architecture.org for more information."
+          },
+          "right": "London, United Kingdom"
+        },
+        {
+          "left": "August-February 2016-17",
+          "body": {
+            "title": "DirectDrinks: CTO and co-founder",
+            "content": "We provide a direct sales channels between large corporate suppliers and small resellers in the FMCG industry, disrupting a pipeline that is currently dominated by mid-tier redistributors. Digital platform for web, mobile, and tablet: directdrinks.com.au."
+          },
+          "right": "Sydney, Australia"
+        },
+        {
+          "left": "June-August 2016",
+          "body": {
+            "title": "Inflection: mobile developer",
+            "content": "Developed an Objective C SDK for an OAuth2 verification flow, and prototyped two React Native applications. Contributions to Dockerized Rails backend."
+          },
+          "right": "San Francisco, California USA"
+        },
+        {
+          "left": "April-May 2016",
+          "body": {
+            "title": "Artirigo AG: full stack developer",
+            "content": "React Native frontend for iOS and Android. In addition, Dockerized and contributions to Rails application."
+          },
+          "right": "Bamberg, Germany"
+        }
+      ]
+    },
+    {
+      "title": "education",
+      "pills": [
+        {
+          "left": "present",
+          "body": {
+            "title": "Princeton University",
+            "content": "Major in Computer Science. Classes also in intellectual history, media and cultural theory, performance theory, theatre et al."
+          },
+          "right": "Princeton, NJ, USA"
+        }
+      ]
+    },
+    {
+      "title": "portfolio | references",
+      "content": "For code see [lachlankermode.com/portfolio](http://lachlankermode.com/portfolio), contributions on GitHub [@breezykermo](https://github.com/breezykermo). Twitter [@lachlankermode](https://www.twitter.com/lachlankermode). Visit [lachlankermode.com/resume](http://lachlankermode.com/resume) for active links in this resume. References available on request."
+    }
+  ]
+}
