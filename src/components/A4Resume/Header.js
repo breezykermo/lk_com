@@ -1,8 +1,12 @@
-import React, { PropTypes } from 'react'
-import theme from './theme'
+import React from 'react';
+import PropTypes from 'prop-types';
+import theme from './theme';
 
 const styles = {
   header: {
+    display: 'flex',
+    flex: 1,
+    justifyContent: 'center',
     backgroundColor: theme.headerColor,
     padding: '5px',
     marginBottom: 10,

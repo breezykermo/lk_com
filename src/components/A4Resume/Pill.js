@@ -1,5 +1,5 @@
-import React, { PropTypes } from 'react'
-import { Grid, Span } from 'react-responsive-grid'
+import React from 'react'
+import PropTypes from 'prop-types';
 
 const styles = {
   pillOuter: {
@@ -31,18 +31,18 @@ const styles = {
 }
 
 const Pill = (props) => (
-  <Grid columns={12} style={styles.pillOuter}>
-    <Span columns={2} style={styles.pillLeft}>
+  <div columns={12} style={styles.pillOuter}>
+    <div columns={2} style={styles.pillLeft}>
       {props.left}
-    </Span>
-    <Span columns={8} style={styles.pillBody}>
+    </div>
+    <div columns={8} style={styles.pillBody}>
       <h4 style={styles.subheader}>{props.body.title}</h4>
       <p style={styles.pillParagraph}>{props.body.content}</p>
-    </Span>
-    <Span columns={2} style={styles.pillRight}>
+    </div>
+    <div columns={2} style={styles.pillRight}>
       {props.right}
-    </Span>
-  </Grid>
+    </div>
+  </div>
 )
 Pill.propTypes = {
   left: PropTypes.string,

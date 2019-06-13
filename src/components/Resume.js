@@ -1,4 +1,5 @@
-import React, { PropTypes } from 'react'
+import React from 'react'
+import PropTypes from 'prop-types';
 import data from './resume-data.json'
 import A4Resume from './A4Resume'
 

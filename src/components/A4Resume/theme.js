@@ -1,5 +1,3 @@
-// import globalTheme from '../../../config/theme'
-
 export default {
   mainColor: '#BB83FF',
   highlightColor: '#D4D4D4',

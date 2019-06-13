@@ -1,13 +1,9 @@
-import React, { PropTypes } from 'react'
-
+import React from 'react'
+import PropTypes from 'prop-types';
 import Header from './Header'
 import Sidebar from './Sidebar'
 import Section from './Section'
 import theme from './theme'
-
-import { Grid, Span } from 'react-responsive-grid'
-
-import resumeData from './resumeStructure.example'
 
 const styles = {
   pageStyle: {
@@ -28,20 +24,22 @@ class Resume extends React.Component {
     })
 
     return (
-      <Grid columns={12} style={styles.pageStyle}>
-        <Span columns={12}>
+      <div className="col" style={styles.pageStyle}>
+        <div className="row">
           <Header {...content.header} />
-        </Span>
-        <Span columns={4} style={{ marginRight: 0 }}>
-          <Sidebar
-            details={content.details}
-            skills={content.skills}
-          />
-        </Span>
-        <Span columns={8} style={{ marginRight: 0, marginTop: 20 }}>
-            {allSections}
-        </Span>
-      </Grid>
+        </div>
+        <div className="row">
+          <div className="span4" style={{ marginRight: 0 }}>
+            <Sidebar
+              details={content.details}
+              skills={content.skills}
+            />
+          </div>
+          <div className="span8" style={{ marginRight: 0, marginTop: 20 }}>
+              {allSections}
+          </div>
+        </div>
+      </div>
     )
   }
 }

@@ -1,8 +1,8 @@
-import React, { PropTypes } from 'react'
+import React from 'react'
+import PropTypes from 'prop-types';
 import Pill from './Pill'
 import theme from './theme'
 import MarkdownIt from 'markdown-it'
-import './resume.scss'
 
 const md = new MarkdownIt()
 
