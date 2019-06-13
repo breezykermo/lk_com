@@ -56,14 +56,25 @@
           "left": "July 2018-present",
           "body": {
             "title": "Forensic Architecture: software lead",
+            "link": "https://forensic-architecture.org",
             "content": "I direct engineering for several full stack platforms and machine learning workflows. I also sit on our data management committee for digital security, and offer expertise across investigations that are computer oriented. See forensic-architecture.org for more information."
           },
           "right": "London, United Kingdom"
         },
         {
+          "left": "January 2019-present",
+          "body": {
+            "title": "Merantix: full stack engineer",
+            "link": "https://merantix.com",
+            "content": "I develop tooling for deep learning workflows on a part time basis for Merantix ventures. Working mainly in Python and the Jupyter notebook stack, we aim to augment tooling in industry DL. Technologies include Kubernetes, GCP, Tensorflow, Jupyter notebooks, Vue, and React."
+          },
+          "right": "Berlin, Germany [remote]"
+        },
+        {
           "left": "August-February 2016-17",
           "body": {
             "title": "DirectDrinks: CTO and co-founder",
+            "link": "https://directdrinks.co",
             "content": "We provide a direct sales channels between large corporate suppliers and small resellers in the FMCG industry, disrupting a pipeline that is currently dominated by mid-tier redistributors. Digital platform for web, mobile, and tablet: directdrinks.com.au."
           },
           "right": "Sydney, Australia"
@@ -72,6 +83,7 @@
           "left": "June-August 2016",
           "body": {
             "title": "Inflection: mobile developer",
+            "link": "https://inflection.com",
             "content": "Developed an Objective C SDK for an OAuth2 verification flow, and prototyped two React Native applications. Contributions to Dockerized Rails backend."
           },
           "right": "San Francisco, California USA"
@@ -80,6 +92,7 @@
           "left": "April-May 2016",
           "body": {
             "title": "Artirigo AG: full stack developer",
+            "link": "https://github.com/Artirigo",
             "content": "React Native frontend for iOS and Android. In addition, Dockerized and contributions to Rails application."
           },
           "right": "Bamberg, Germany"
