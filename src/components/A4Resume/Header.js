@@ -9,24 +9,21 @@ const styles = {
     justifyContent: 'center',
     backgroundColor: theme.headerColor,
     padding: '5px',
-    marginBottom: 10,
   },
   name: {
-    color: 'white',
+    color: theme.backgroundColor,
     textAlign: 'center',
-    marginTop: '1rem',
-    marginBottom: '1rem',
     fontSize: 28,
     fontWeight: '100',
     lineHeight: '0.8',
   },
   weighted: {
     fontWeight: 'bold',
-    color: theme.mainColor,
+    color: theme.highlightColor,
   },
   smaller: {
     fontSize: '16px',
-    color: theme.highlightColor,
+    color: theme.backgroundColor,
   },
 }
 

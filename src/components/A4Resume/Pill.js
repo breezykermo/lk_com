@@ -28,8 +28,6 @@ const styles = {
     lineHeight: '20px',
   },
   pillParagraph: {
-    lineHeight: '16px',
-    fontSize: 12,
   },
 }
 

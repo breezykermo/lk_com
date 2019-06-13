@@ -3,7 +3,7 @@ import React from 'react'
 const styles = {
   details: {
     display: 'flex',
-    justifyContent: 'center',
+    justifyContent: 'flex-end',
     alignItems: 'center',
   },
   listElement: {

@@ -5,22 +5,23 @@ import theme from '../theme'
 const styles = {
   container: {
     marginLeft: '6px',
+    color: theme.textColor,
   },
   hr: {
     margin: '5px',
-    borderColor: theme.highlightColor,
-    backgroundColor: theme.highlightColor,
-    color: theme.highlightColor,
+    borderColor: theme.headerColor,
+    backgroundColor: theme.headerColor,
+    color: theme.headerColor,
   },
   header: {
     fontSize: 20,
     marginTop: '0rem',
-    marginBottom: '1rem',
+    marginBottom: '5px',
   },
   listing: {
     lineHeight: '14px',
     fontSize: 12,
-    marginBottom: 3,
+    marginBottom: 5,
   },
 }
 
@@ -30,7 +31,7 @@ const formatType = (text) => {
   return (
     <span>
       {mostOfType}
-      <span style={{ color: theme.mainColor }}>
+      <span style={{ color: theme.highlightColor }}>
         {lastThreeChars}
       </span>
     </span>

@@ -9,21 +9,23 @@ const md = new MarkdownIt()
 const styles = {
   container: {
     paddingLeft: 20,
+    color: theme.textColor,
   },
   title: {
-    fontWeight: '100',
+    fontSize: '20px',
+    fontWeight: 'bold',
     textAlign: 'right',
     padding: '0',
-    margin: '0 1em',
+    margin: '0 1em 5px 1em',
   },
   hr: {
     margin: '0 0 15px 0',
-    borderColor: theme.highlightColor,
-    backgroundColor: theme.highlightColor,
-    color: theme.highlightColor,
+    borderColor: theme.headerColor,
+    backgroundColor: theme.headerColor,
+    color: theme.headerColor,
   },
   themed: {
-    color: theme.mainColor,
+    color: theme.highlightColor,
   },
 }
 
@@ -42,9 +44,9 @@ const Section = (props) => {
 
   return (
     <div style={styles.container}>
-      <h3 style={styles.title}>
+      <h4 style={styles.title}>
         <span style={styles.themed}>{firstThreeLetters}</span><span>{restOfTitle}</span>
-      </h3>
+      </h4>
       <hr style={styles.hr} />
       <div className={'innerMarkdown'}>
         {content}

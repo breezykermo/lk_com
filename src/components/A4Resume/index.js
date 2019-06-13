@@ -13,6 +13,11 @@ const styles = {
     boxShadow: '0 0 0.8cm rgba(0,0,0,0.3)',
     marginBottom: 100,
   },
+  content: {
+    marginRight: 0,
+    marginTop: 20,
+    paddingRight: 15
+  }
 }
 
 class Resume extends React.Component {
@@ -35,7 +40,7 @@ class Resume extends React.Component {
               skills={content.skills}
             />
           </div>
-          <div className="span8" style={{ marginRight: 0, marginTop: 20 }}>
+          <div className="span8" style={styles.content}>
               {allSections}
           </div>
         </div>
