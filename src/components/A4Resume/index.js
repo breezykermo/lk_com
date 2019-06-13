@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Header from './Header'
 import Sidebar from './Sidebar'
 import Section from './Section'
-import theme from './theme'
+import theme from '../theme'
 
 const styles = {
   pageStyle: {

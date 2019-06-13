@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types';
-import theme from './theme'
+import theme from '../theme'
 
 const styles = {
   container: {
@@ -18,8 +18,7 @@ const styles = {
     marginBottom: '1rem',
   },
   listing: {
-    marginLeft: '10px',
-    lineHeight: '18px',
+    lineHeight: '14px',
     fontSize: 12,
     marginBottom: 3,
   },

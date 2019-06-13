@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types';
 import Pill from './Pill'
-import theme from './theme'
+import theme from '../theme'
 import MarkdownIt from 'markdown-it'
 
 const md = new MarkdownIt()

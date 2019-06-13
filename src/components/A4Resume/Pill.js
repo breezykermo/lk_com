@@ -7,13 +7,20 @@ const styles = {
     margin: 0,
   },
   pillLeft: {
+    width: "16%",
     fontSize: 10,
     lineHeight: '12px',
   },
   pillBody: {
+    width: "66%",
     textAlign: 'left',
     margin: 0,
     padding: '0 5px',
+  },
+  pillRight: {
+    width: "16%",
+    fontSize: 10,
+    lineHeight: '12px',
   },
   subheader: {
     margin: '0 0 4px 0',
@@ -21,25 +28,21 @@ const styles = {
     lineHeight: '20px',
   },
   pillParagraph: {
-    lineHeight: '18px',
+    lineHeight: '16px',
     fontSize: 12,
-  },
-  pillRight: {
-    fontSize: 10,
-    lineHeight: '12px',
   },
 }
 
 const Pill = (props) => (
-  <div columns={12} style={styles.pillOuter}>
-    <div columns={2} style={styles.pillLeft}>
+  <div className="row" style={styles.pillOuter}>
+    <div style={styles.pillLeft}>
       {props.left}
     </div>
-    <div columns={8} style={styles.pillBody}>
+    <div style={styles.pillBody}>
       <h4 style={styles.subheader}>{props.body.title}</h4>
       <p style={styles.pillParagraph}>{props.body.content}</p>
     </div>
-    <div columns={2} style={styles.pillRight}>
+    <div style={styles.pillRight}>
       {props.right}
     </div>
   </div>
