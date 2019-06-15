@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
 .App {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
   display: flex;
   justify-content: center;
   padding: 20px;
@@ -18,6 +22,11 @@ a:hover {
 p {
   font-size: 12px;
   line-height: 16px;
+}
+
+hr {
+  height: 1px;
+  border: none;
 }
 
 .row {
@@ -44,4 +53,3 @@ li {
 .innerMarkdown {
   padding-right: 10px;
 }
-

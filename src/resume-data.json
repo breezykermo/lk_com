@@ -5,6 +5,8 @@
   },
   "details": {
     "website": "www.lachlankermode.com",
+    "github": "github.com/breezykermo",
+    "twitter": "twitter.com/lachlankermode",
     "email": "lachiekermode@gmail.com"
   },
   "skills": {
@@ -19,7 +21,8 @@
       "Film editing and compositing [Premiere, After Effects]"
     ],
     "audio": [
-      "Composer/lyricist",
+      "Composer/lyricist [stage, studio]",
+      "Music director [stage]",
       "Voice [10+ yrs]",
       "Guitar [10+ yrs]",
       "Piano [4 yrs]"
@@ -28,38 +31,67 @@
   "sections": [
     {
       "title": "statement",
-      "content": "Designing and building augmented media experiences."
+      "content": "Lachlan Kermode is an audiovisual engineer who specializes in systems development, machine learning, and augmented media systems. He is currently software lead at London-based research agency Forensic Architecture, where he develops research tools and workflows to enhance human rights research using multi-media systems. He has a degree in Computer Science from Princeton University, and has worked across industry, research, and artistic contexts."
     },
     {
-      "title": "exhibitions",
+      "title": "experience",
       "pills": [
         {
-          "left": "July 2018-present",
+          "left": "July 2018 - now",
           "body": {
-            "title": "Forensic Architecture: software lead",
+            "title": "Forensic Architecture",
             "link": "https://forensic-architecture.org",
-            "content": "I direct engineering for several full stack platforms and machine learning workflows. I also sit on our data management committee for digital security, and offer expertise across investigations that are computer oriented. See forensic-architecture.org for more information."
+            "content": "I direct engineering for full stack platforms, 3-D data pipelines, and machine learning workflows. I also sit on our data management committee for digital security, and offer expertise across investigations that are computer oriented. See forensic-architecture.org for more information."
           },
           "right": "London, United Kingdom"
+        },
+        {
+          "left": "2016-2018",
+          "body": {
+            "title": "Full Stack Systems Engineer",
+            "link": "https://resume.lachlankermode.com",
+            "content": "I worked across several technical contexts in industry, from developing mobile applications in Swift and Objective C, to building full stack applications from scratch in Node, React, and React Native, to infrastructure and backend optimization in Docker, Ansible, Python, Golang and various other languages."
+          }
+        },
+        {
+          "left": "2014-2019",
+          "body": {
+            "title": "Triangle Club Writers Workshop",
+            "link": "http://www.triangleshow.com/",
+            "content": "Wrote and produced three full-length musical comedies as part of a 12-person creative workshop. Primarily responsible for music and lyrics, I wrote upwards of 15 songs that were produced as part of the annual Princeton Triangle show."
+          }
         }
       ]
     },
     {
-      "title": "education",
+      "title": "projects + exhibitions",
       "pills": [
         {
-          "left": "present",
+          "left": "May-July 2019",
           "body": {
-            "title": "Princeton University",
-            "content": "Major in Computer Science. Classes also in intellectual history, media and cultural theory, performance theory, theatre et al."
+            "title": "Triple Chaser: Whitney Museum",
+            "link": "https://forensic-architecture.org/investigation/triple-chaser",
+            "content": "In collaboration with Laura Poitras/Praxis Films, I trained computer vision machine learning classifiers to detect Safariland tear gas canisteres among the millions of images shared online, using an innovative technique of training using synthetic data rendered from photorealistic 3-D scenes."
           },
-          "right": "Princeton, NJ, USA"
+          "right": "New York, USA"
+        },
+        {
+          "left": "March 2018",
+          "body": {
+            "title": "Through the Internet: 3-D Animated Short",
+            "content": "A 3-minute animated short depicted the journey of a data packet from a cellphone in Madrid to a Facebook data center in New Jersey. TTI is a project of 'animated documentary', an ongoing set of projects that looks to think algorithmic metaphor through its spatial consistency by visualising algorithms in 3-D animation."
+          },
+          "right": "Princeton, USA"
+        },
+        {
+          "left": "June-August 2016",
+          "body": {
+            "title": "Paideia Creative Residency",
+            "content": "I helped to workshop and write a full-length musical based on the Euripides drama \"'Ἑλένη\", which was later produced into a cast EP by broadway actors."
+          },
+          "right": "Selianitika, Greece"
         }
       ]
-    },
-    {
-      "title": "portfolio | references",
-      "content": "For code see [lachlankermode.com/portfolio](http://lachlankermode.com/portfolio), contributions on GitHub [@breezykermo](https://github.com/breezykermo). Twitter [@lachlankermode](https://www.twitter.com/lachlankermode). Visit [lachlankermode.com/resume](http://lachlankermode.com/resume) for active links in this resume. References available on request."
     }
   ]
 }
