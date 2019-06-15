@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+KR&display=swap');
 .App {
+  font-family: 'Noto Serif KR', serif;
   display: flex;
   justify-content: center;
   padding: 20px;
@@ -6,13 +8,20 @@
 }
 
 a {
-  color: #9e85f6;
+  /* color: #9e85f6; */
+  color: #609dff;
   text-decoration: none;
   transition: 0.4s;
 }
 
 a:hover {
-  color: #7856f2;
+  /* color: #7856f2; */
+  color: #468cfc;
+}
+
+hr {
+  height: 1px;
+  border: none;
 }
 
 p {

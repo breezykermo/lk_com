@@ -1,6 +1,6 @@
 export default {
   textColor: '#4c4c4c',
-  highlightColor: '#9e85f6',
+  highlightColor: '#609dff',
   headerColor: '#343434',
   backgroundColor: '#f3f3f3',
   markdownRules: {

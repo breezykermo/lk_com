@@ -19,8 +19,6 @@ const styles = {
     margin: '0 1em 5px 1em',
   },
   hr: {
-    margin: '0 0 15px 0',
-    borderColor: theme.headerColor,
     backgroundColor: theme.headerColor,
     color: theme.headerColor,
   },
