@@ -18,7 +18,7 @@
 
   --horizontal-spacing: 30px;
 
-  --column-width: 400px;
+  --column-width: 500px;
   --blog-width: 600px;
 }
 
@@ -81,8 +81,7 @@ a:hover {
 }
 
 ul {
-  /* list-style-type: armenian; */
-  list-style-type: upper-roman;
+  list-style-type: circle;
   list-style-image: none;
   margin-block-start: 0.5em;
   padding-inline-start: 20px;
@@ -264,6 +263,7 @@ input {
 .mb-10 { margin-bottom: 10px; }
 .mt-10 { margin-top: 10px; }
 .mt-15 { margin-top: 15px; }
+.mt-20 { margin-top: 20px; }
 
 .p-10 {
   padding: 10px;
