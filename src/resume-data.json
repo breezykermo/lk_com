@@ -29,7 +29,8 @@
       "Docker, VM- and container-ware",
       "Tensorflow, PyTorch, Kubernetes",
       "AWS, Digital Ocean",
-      "Maya [3-D modeling, animation]"
+      "Maya, Blender [3-D modeling, animation]",
+      "Unity, Unreal Engine [scripting]"
     ],
     "misc | other": [
       "PIIRS Undergraduate Research Fellow, Berlin 2017",
@@ -62,7 +63,7 @@
           "right": "London, United Kingdom"
         },
         {
-          "left": "January 2019-present",
+          "left": "January-July 2019",
           "body": {
             "title": "Merantix: full stack engineer",
             "link": "https://merantix.com",
@@ -103,7 +104,7 @@
       "title": "education",
       "pills": [
         {
-          "left": "present",
+          "left": "2013-2018",
           "body": {
             "title": "Princeton University",
             "content": "Major in Computer Science. Classes also in intellectual history, media and cultural theory, performance theory, theatre et al."
@@ -114,7 +115,7 @@
     },
     {
       "title": "portfolio | references",
-      "content": "For contributions on GitHub [@breezykermo](https://github.com/breezykermo). Twitter [@lachlankermode](https://www.twitter.com/lachlankermode). Visit [lachlankermode.com/resume](http://lachlankermode.com/resume) for active links in this resume. References available on request."
+      "content": "For contributions on GitHub [@breezykermo](https://github.com/breezykermo). Twitter [@lachlankermode](https://www.twitter.com/lachlankermode). Visit [lachlankermode.com/resume](http://resume.lachlankermode.com) for active links in this resume. References available on request."
     }
   ]
 }
