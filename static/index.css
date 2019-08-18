@@ -43,9 +43,6 @@ body {
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
-  /* width: calc(100% - 30px); */
-  /* max-width: var(--column-width); */
-  /* min-width: var(--column-width); */
   color: black;
 }
 
