@@ -16,9 +16,9 @@
   --header-font-size: 18pt;
   --header-line-height: 21pt;
 
-  --horizontal-spacing: 30px;
+  --horizontal-spacing: 0px;
 
-  --column-width: 500px;
+  --column-width: 550px;
   --blog-width: 600px;
 }
 

@@ -73,7 +73,7 @@
   width: var(--column-width);
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1750px) {
   #content {
     flex-direction: column;
   }
