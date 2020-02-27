@@ -1,6 +1,6 @@
 .cache
-dist
-node_modules
+dist/
+node_modules/
 sandbox
 tags
 tags.lock
