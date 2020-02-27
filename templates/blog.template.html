@@ -1,0 +1,8 @@
+<input name="blog" id="{{url}}" type="radio" class="blog-radio"/>
+<label id="{{url}}-label" for="{{url}}" class="panel clickable mb-10" onclick="clickHandler('/{{url}}')">
+    <div class="blog-title">{{title}}</div>
+    <div class="blog-meta">{{meta}}</div>
+</label>
+<div class="blog-content" id="{{url}}-content">
+    {{{ content }}}
+</div>
