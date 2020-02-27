@@ -1,7 +1,7 @@
 ---
 title: on gods and campervans 
 url: on-gods-and-campervans 
-meta: 5 May, 2018 
+date: 2018-05-05
 ---
 If we characterize ‘culture’ as the gestures (rhetorical, occupational, infrastructural) that Man invents to make an environment wholly livable, its is clear that such gestures will be subject to Man’s historical particularity at any given moment. One normative gesture in the plans of our present cultural architecture is Science. Science’s pragmatism substitutes the need and often desire for other religiosities, as its explanatory thrust is more epistemologically compelling than its misbegotten alternatives: myths, legends, and other fanciful fictions.
 

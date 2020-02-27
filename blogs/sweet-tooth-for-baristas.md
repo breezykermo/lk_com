@@ -1,7 +1,7 @@
 ---
 title: sweet tooth (for baristas) 
 url: sweet-tooth-for-baristas 
-meta: 19 April, 2018 
+date: 2018-04-19
 ---
 A collaboration with Michelle Lord Goldman and Cecily Polonsky. Directed by Jhor van der Horst, edited by David Lopera, and featuring Natalie Plonk, Ben Diamond, Raheem Barnett, and Ysa Ayala.
 

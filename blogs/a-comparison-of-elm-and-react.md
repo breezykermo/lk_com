@@ -1,7 +1,7 @@
 ---
 title: A comparison of Elm and React (in code) 
 url: a-comparison-of-elm-and-react 
-meta: January 22, 2017 
+date: 2017-01-22
 ---
 <p>Since React’s open source release in 2013, techniques inspired by functional programming have become an integral part of what many consider ‘best practice’ in front-end application development on the web. Functional programming as a concept has been around since the lambda calculus was invented to study computation in the 30s, and it became practicable through Lisp in 1958, and then further through ML in the 70s. Only now, however, is it finding its way into the mainstream. This post investigates functional techniques in contemporary ‘best practice’ front-end development by comparing an application in Elm to its equivalent in React.</p>
 <p>Disclaimer: <em>I think Elm is a lot more expressive and robust than the React equivalent.</em> </p>

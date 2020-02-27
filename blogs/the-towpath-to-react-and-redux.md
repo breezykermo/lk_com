@@ -1,7 +1,7 @@
 ---
 title: The towpath to React and Redux 
 url: the-towpath-to-react-and-redux 
-meta: July 28, 2016 
+date: 2016-07-28 
 ---
 <p>When you visit a URL, you are redirected through the internet to a server somewhere in the world, and code is triggered on that server, prompted by your request. Sometimes that code makes requests elsewhere, retrieving other resources from a database or elsewhere before returning files to your browser, which we can call the <em>client</em>, that made the request. This is how the Facebook page that you see when you visit facebook.com is different from your friends'. Even though you could both be at the same URL; the page is customized at the server-side before it is returned to your browser through the login parameters that you sent.</p>
 <p>In simpler sites, such as <a href="http://lachlankermode.com/">lachlankermode.com</a><sup id="fnref-1"><a href="#fn-1" class="footnote-ref">1</a></sup>, when there are no required exterior resources and no customization, the server simply directly returns HTML, CSS and Javascript files to your browser. Browsers have been programmed to interpret these filetypes. They know how to render in color and glory the wonderful web pages that we can browse on the internet. This was really the paradigm in which the web was originally designed; it was built as a forum for the retrieval and consequent display of HTML documents.</p>

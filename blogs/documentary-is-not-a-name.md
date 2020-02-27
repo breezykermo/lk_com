@@ -1,7 +1,7 @@
 ---
 title: documentary is/not a name 
 url: documentary-is-not-a-name
-meta: 29 July, 2018
+date: 2018-07-29
 ---
 The following film is an investigation and representation of Trinh T. Min-ha's argument in her 1990 essay, "[Documentary Is/Not a Name](https://www.jstor.org/stable/778886?seq=1#page_scan_tab_contents)".
 
