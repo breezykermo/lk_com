@@ -2,7 +2,7 @@ let PATHNAME = window.location.pathname
 function update() {
   PATHNAME = window.location.pathname
 }
-window.goToPath = function goToPath(pth) {
+function goToPath(pth) {
   window.history.pushState({}, "", pth)
 }
 function scrollTo(elId) {
@@ -16,7 +16,13 @@ function scrollTo(elId) {
   } else {
     el.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"})
   }
-  }
+}
+
+window.clickHandler = function clickHandler(pth) {
+  goToPath(pth)
+  // scrollTo(`${pth.split('/')[1]}-label`)
+}
+
 
 // go to path if given
 if (PATHNAME !== "/") {
