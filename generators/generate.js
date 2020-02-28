@@ -61,6 +61,7 @@ function fmtDate(date) {
  */
 function readFiles(dirname, onFileContent) {
   fs.readdirSync(dirname).forEach(function(file) {
+    if (file.includes('.draft')) return
     const contents = fs.readFileSync(dirname + file, 'utf-8')
     onFileContent(file, contents);
   });

@@ -74,6 +74,14 @@
 }
 
 @media (max-width: 1750px) {
+  body,  {
+    font-size: var(--mobile-font-size);
+    line-height: var(--mobile-line-height);
+  }
+  h1,h2,h3,h4,h5,h6 {
+    font-size: var(--mobile-header-size);
+    line-height: var(--mobile-header-height);
+  }
   #content {
     flex-direction: column;
   }
