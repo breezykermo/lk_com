@@ -6,6 +6,7 @@
   "scripts": {
     "watch": "parcel watch index.html",
     "start": "node generators/generate.js && parcel index.html",
+    "start:nogen": "parcel index.html",
     "build": "node generators/generate.js && parcel build index.html && cp _redirects dist/_redirects && cp -r .well-known dist/.well-known && cp -a live/. dist/"
   },
   "devDependencies": {
