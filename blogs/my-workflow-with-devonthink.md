@@ -12,12 +12,11 @@ documents between computers and tablets (iOS only), powerful search capacities,
 lateral tagging to associate documents with each other, and-- most
 importantly-- a scripting API to create custom workflows.
 
-I've recently determined that I'll be starting a PhD, and as part of the
-preparation for it I've been ironing my reading, writing, and archiving
-workflow.  It's designed primarily with seminars, essays, and book-length
-projects in the humanities in mind-- but I've tried to make it general and
-flexible enough to work with other contexts, such as scientific reading, as
-well.
+
+I've recently been ironing my reading, writing, and archiving workflow.  It's
+designed primarily with seminars, essays, and book-length projects in the
+humanities in mind-- but I've tried to make it general and flexible enough to
+work with other contexts, such as scientific reading, as well.
 
 This is a two-part post. Here in part I, I'll present a specification of how
 I want to read, write, and archive in abstract terms. In Part II, I'll detail
