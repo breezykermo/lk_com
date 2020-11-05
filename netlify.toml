@@ -1,0 +1,4 @@
+[build]
+	base = '/'
+	publish = 'dist'
+	command = 'mkdir dist && cp -r *.txt dist/'

@@ -1,5 +1,0 @@
-{
-  "scripts": {
-    "build": "cp -r *.txt dist/"
-  }
-}
