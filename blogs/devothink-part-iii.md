@@ -6,9 +6,13 @@ date: 2020-12-30
 Annotations in DT have long been a bit of a brain tangle for me. My spec for annotations (since I didn't go into this in [part I](https://lachlankermode.com/associative-archiving-with-devonthink-1)) is as follows: 
 
 1. There should be no constraints on how many annotations you can take from a document. You could take none, one or two, or ten thousand.
+
 2. An annotation should have an inlined quote (whatever text is highlighted when you create the annotation), and should have a one-click reference back to the specific page of the source document from which it's drawn (if it is a PDF- for webarchives and weblocs there is no notion of pages, so a generic reference to the document suffices).
+
 3. Annotations need to be their own entities in the archive. This has several implications. One of these is that an annotation is not solely or specifically bound to its source document. Annotations can be included in projects without necessarily including the source document itself. Another is that annotations can have their own tags which need not be the same as their source document's. 
+
 4. Annotations should be recognizably distinct from other documents. This is perhaps a personal preference, but I think that it makes sense given that an annotation is part source text, part text that I myself have written (an associated note). In this sense annotations are closer to files in my PKB (explained in brief at the top of this post) than any other content in my archive. They are part source material, part my own creation.
+
 5. Creating annotations should be possible _from anywhere_: not just within
    DEVONthink.
 
