@@ -1,9 +1,9 @@
 ---
-title: "Associative Archiving with DEVONthink: Part II"
+title: "Associative Archiving with : Part II"
 url: associative-archiving-with-devonthink-2
 date: 2020-12-29
 ---
-Following on from [Part I](https://lachlankermode.com/associative-archiving-with-devonthink-1), here I'll unpack how I archive in practice using [DevonTHINK](https://www.devontechnologies.com/de/apps/devonthink) (DT) as a driver. As I noted in part I, DT is a Mac-only application, and so in order to replicate my setup, you unfortunately need to have an Apple device. I'm actively looking for linux software that can simulate or replicate DT's functionality, as my primary workstation is [Artix on a modified LARBS](https://github.com/breezykermo/dotfiles), but I currently know of nothing that compares. In fact, it is pretty much solely DT's capabilities as archiving software that ties me to still using a Mac for some kinds of work. 
+Following on from [Part I](https://lachlankermode.com/associative-archiving-with-devonthink-1), here I'll unpack how I archive in practice using [DEVONthink](https://www.devontechnologies.com/de/apps/devonthink) (DT) as a driver. As I noted in part I, DT is a Mac-only application, and so in order to replicate my setup, you unfortunately need to have an Apple device. I'm actively looking for linux software that can simulate or replicate DT's functionality, as my primary workstation is [Artix on a modified LARBS](https://github.com/breezykermo/dotfiles), but I currently know of nothing that compares. In fact, it is pretty much solely DT's capabilities as archiving software that ties me to still using a Mac for some kinds of work. 
 
 Alongside documents in DT, I also keep a personal database of notes in plain markdown, which I view and edit in a range of ways ([Obsidian](https://obsidian.md/), [vim](https://github.com/breezykermo/.vim) or [emacs](https://github.com/breezykermo/.doom.d) in desktop environments, and [iWriter](https://apps.apple.com/us/app/1writer-markdown-text-editor/id680469088) on iPad). I call this database my "PKB", which is a shorthand for "personal knowledge base" I picked up somewhere online. My PKB loosely follows Nick Milo's [LYT method](https://forum.obsidian.md/t/lyt-kit-now-downloadable/390) for note-taking, and contains notes that range from handy bash commands, to lecture notes, to article drafts.
 
@@ -22,7 +22,7 @@ and I'll do my best to detail those here in such a way that they can be easily
 reproduced on any DT installation. Others involve custom Python scripts and
 external services like Dropbox. If you're interested in the detail of these, or have any questions or comments in general, please do feel free to [email me](mailto:lachiekermode@gmail.com). If you've taken the time to read this, I'd love to hear from you! :)
 
-## DevonTHINK in a nutshell 
+## DEVONthink in a nutshell 
 DT is ultimately a file manager, comparable to Finder in Mac, File Manager in Windows, or Nautilus or PCManFM in Linux. To get started, you create a database, in which you can then store files of various kinds. With DT, you can then effectively browse and modify the contents of your databases.
 
 <div class="m-15" style="display:flex;justify-content:center;align-items:center;">
@@ -61,7 +61,7 @@ In addition to this metadata query language, DT provides impressively effective 
     <img src="static/gui-search.png" width="100%">
 </div>
 
-## Associative archiving in DevonTHINK
+## Associative archiving in DEVONthink
 The three primitives of associative archiving as I outlined them in part I are: projects, associative tagging and an inbox. Here's how I implement each of these using DT.
 
 ### Projects 
@@ -97,7 +97,7 @@ The final component of the associative archive is an inbox for incoming document
 
 It is easy to drag-and-drop files such as PDFs if they're local into the inbox, and DT also provides [extensions](https://www.devontechnologies.com/blog/20191022-safari-13) for Safari, Chrome and Firefox to easily 'clip' webpages into the inbox.
 
-I use DT's inbox as my primary way of keeping track of links and documents to read. Because it exists separately from the rest of my database, I can sync it with the mobile version of DT, [DevonTHINK To Go](https://apps.apple.com/us/app/devonthink-to-go/id395722470), without having to worry about taking up all the space on my tablet with all my PDF documents (which can be stored on the Cloud and synced on demand if you prefer). My DT inbox becomes a 'Read Later' space for everything incoming from either the web or that folks have sent me as PDF.
+I use DT's inbox as my primary way of keeping track of links and documents to read. Because it exists separately from the rest of my database, I can sync it with the mobile version of DT, [DEVONthink To Go](https://apps.apple.com/us/app/devonthink-to-go/id395722470), without having to worry about taking up all the space on my tablet with all my PDF documents (which can be stored on the Cloud and synced on demand if you prefer). My DT inbox becomes a 'Read Later' space for everything incoming from either the web or that folks have sent me as PDF.
 
 If I didn't have an e-reader, I would probably read PDFs on my ipad via DT To Go as well: but because I start at a glowing blue screen so much in any case, I make a point of reading everything I can on my e-ink [Remarkable tablet](https://remarkable.com/). PDFs basically sit in my DT inbox for as long as I'm reading them, as a kind of reminder that I need to, and then once I have finished with them on Remarkable, I export them and replace the placeholder documents in DT with the annotated versions.
 
