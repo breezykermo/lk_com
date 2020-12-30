@@ -3,7 +3,7 @@ title: "Associative Archiving with DEVONthink: Part II"
 url: associative-archiving-with-devonthink-2
 date: 2020-12-29
 ---
-Following on from [Part I](https://lachlankermode.com/associative-archiving-with-devonthink-1), here I'll unpack how I archive in practice using [DevonTHINK](https://www.devontechnologies.com/de/apps/devonthink) (DT) as a driver. As I noted in part I, DT is a Mac-only application, and so in order to replicate my setup, you unfortunately need to have an Apple device. I'm actively looking for linux software that can simulate or replicate DT's functionality, as my primary workstation is [Artix on a modified LARBS](https://github.com/breezykermo/dotfiles), but I currently no of nothing that compares. In fact, it is pretty much solely DT's capabilities as archiving software that ties me to still using a Mac for some kinds of work. 
+Following on from [Part I](https://lachlankermode.com/associative-archiving-with-devonthink-1), here I'll unpack how I archive in practice using [DevonTHINK](https://www.devontechnologies.com/de/apps/devonthink) (DT) as a driver. As I noted in part I, DT is a Mac-only application, and so in order to replicate my setup, you unfortunately need to have an Apple device. I'm actively looking for linux software that can simulate or replicate DT's functionality, as my primary workstation is [Artix on a modified LARBS](https://github.com/breezykermo/dotfiles), but I currently know of nothing that compares. In fact, it is pretty much solely DT's capabilities as archiving software that ties me to still using a Mac for some kinds of work. 
 
 Alongside documents in DT, I also keep a personal database of notes in plain markdown, which I view and edit in a range of ways ([Obsidian](https://obsidian.md/), [vim](https://github.com/breezykermo/.vim) or [emacs](https://github.com/breezykermo/.doom.d) in desktop environments, and [iWriter](https://apps.apple.com/us/app/1writer-markdown-text-editor/id680469088) on iPad). I call this database my "PKB", which is a shorthand for "personal knowledge base" I picked up somewhere online. My PKB loosely follows Nick Milo's [LYT method](https://forum.obsidian.md/t/lyt-kit-now-downloadable/390) for note-taking, and contains notes that range from handy bash commands, to lecture notes, to article drafts.
 
@@ -69,7 +69,9 @@ For each new project in DT, I simply add a new tag, and start attributing it to 
 
 In addition to working as a filter, tags exist as distinct entities in DT. This means that they can be searched for, added in groups, and so on. One shelf that DT offers in its global sidebar (on the leftmost of the screen below) is a list of 'Favorites', to which you can add any kind of entity. By adding a project tag such as 'computing history' to my Favorites, I create a distinct workspace for that project, which will dynamically show me all documents within that project. From this workspace, I can then further search and filter over tags, metadata, or contents.
 
-![[tag-as-project.png]]
+<div class="m-15" style="display:flex;justify-content:center;align-items:center;">
+    <img src="static/tag-as-project.png" width="100%">
+</div>
 
 ### Associative tagging
 
@@ -87,7 +89,7 @@ I have a few special categories of tags in order to keep my archive clear and us
 
 **Course tags** - tags for seminars that I take or teach. All of the readings are tagged with the course tag ('MCM 2500 2020'). I used to use tags for particular weeks of content as well, but this gets complicated if certain documents are read in multiple courses (as they may be read in week 1 of one course, and week 4 of another). Instead I now rely on the course's syllabus (which can be found using the type tag 'syllabus') to preserve the course's progression.
 
-I'm constantly experimenting with new tags and tag types. The basic guiding principle is that my tag architecture should reflect the way that I conceptually order documents, so that retrieval from the archive is as simple as composing a few tag/concepts together. Search is not the only application though; wandering through my tag architecture can also lead to serendipitous discovery of links between different kinds of content. Keeping the archive 'flat' by default encourages this latter kind of discovery, and keeps categorisation from ossifying and stymieing creativity rather than supporting and structuring it.
+The basic guiding principle here is that my tag architecture should reflect the way that I conceptually order documents, so that retrieval from the archive is as simple as composing a few tag/concepts together. Search is not the only application though; wandering through my tag architecture can also lead to serendipitous discovery of links between different kinds of content. Keeping the archive 'flat' by default encourages this latter kind of discovery, and keeps categorisation from ossifying and stymieing creativity rather than supporting and structuring it.
 
 ### The inbox
 
