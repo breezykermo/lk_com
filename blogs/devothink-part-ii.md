@@ -1,5 +1,5 @@
 ---
-title: "Associative Archiving with : Part II"
+title: "Associative Archiving with DEVONthink: Part II"
 url: associative-archiving-with-devonthink-2
 date: 2020-12-29
 ---
