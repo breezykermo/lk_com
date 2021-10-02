@@ -73,7 +73,7 @@
         {
           "left": "January-July 2019",
           "body": {
-            "title": "Merantix: full stack engineer",
+            "title": "Merantix: Full Stack Engineer",
             "link": "https://merantix.com",
             "content": "Tooling for deep learning workflows, working mainly in Python and the Jupyter notebook stack, Kubernetes, GCP, Tensorflow, Vue, and React."
           },
@@ -82,7 +82,7 @@
         {
           "left": "August-February 2016-17",
           "body": {
-            "title": "DirectDrinks: CTO and co-founder",
+            "title": "DirectDrinks: CTO and Co-founder",
             "link": "https://directdrinks.co",
             "content": "Platform for a direct sales channels between large corporate suppliers and small resellers in the FMCG industry, disrupting a pipeline that is currently dominated by mid-tier redistributors. Digital platform for web, mobile, and tablet."
           },
@@ -91,7 +91,7 @@
         {
           "left": "June-August 2016",
           "body": {
-            "title": "Inflection: mobile developer",
+            "title": "Inflection: Mobile Developer",
             "link": "https://inflection.com",
             "content": "Developed an Objective C SDK for an OAuth2 verification flow, and prototyped two React Native applications. Contributions to Dockerized Rails backend."
           },
@@ -100,7 +100,7 @@
         {
           "left": "April-May 2016",
           "body": {
-            "title": "Artirigo AG: full stack developer",
+            "title": "Artirigo AG: Full Stack Developer",
             "link": "https://github.com/Artirigo",
             "content": "React Native frontend for iOS and Android. Contributions to a Rails application."
           },
