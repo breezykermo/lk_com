@@ -1,6 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types';
 import theme from '../theme'
+import MarkdownIt from 'markdown-it'
+
+const md = new MarkdownIt()
+
 
 const styles = {
   container: {
@@ -26,14 +30,16 @@ const styles = {
 }
 
 const formatType = (text) => {
-  const mostOfType = text.substring(0, text.length - 3)
-  const lastThreeChars = text.substring(text.length - 3)
+  // const mostOfType = text.substring(0, text.length - 3)
+  // const lastThreeChars = text.substring(text.length - 3)
+  const firstThreeChars = text.substring(0, 3)
+  const restOfType = text.substring(3, text.length)
   return (
     <span>
-      {mostOfType}
       <span style={{ color: theme.highlightColor }}>
-        {lastThreeChars}
+        {firstThreeChars}
       </span>
+      {restOfType}
     </span>
   )
 }
@@ -43,7 +49,7 @@ const Skill = (props) => (
     <h4 style={styles.header}>{formatType(props.name)}</h4>
     <hr style={styles.hr} />
     <ul>
-      {props.values.map(value => <li style={styles.listing} key={value}>{value}</li>)}
+      {props.values.map(value => <li style={styles.listing} key={value} dangerouslySetInnerHTML={{ __html: md.render(value).replace('\<p\>', '\<p style="margin:0;"\>') }}/>)}
     </ul>
   </div>
 )

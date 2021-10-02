@@ -1,7 +1,7 @@
 {
   "header": {
     "name": "lachlan kermode",
-    "profession": "full stack engineer"
+    "profession": "Full Stack | Machine Learning Engineer"
   },
   "details": {
     "website": "www.lachlankermode.com",
@@ -10,29 +10,28 @@
   "skills": {
     "languages": [
       "English",
-      "JavaScript [HTML, CSS]",
-      "Python, Julia",
-      "Golang",
+      "Node",
+      "Python",
+      "C, C++",
+      "Rust",
       "Italian",
-      "Elm, Elixir, OCaml",
-      "C, Rust",
-      "Swift, Objective C",
       "Java",
-      "Latin",
-      "Assembly"
+      "Swift, Objective C",
+      "Latin"
     ],
-    "frameworks+": [
-      "React, React Native [Redux]",
-      "VueJS, Elm [functional frontend]",
-      "HTTP/S JS/Python [express, flask]",
-      "MySQL, Postgres, MongoDB",
-      "Docker, VM- and container-ware",
-      "Tensorflow, PyTorch, Kubernetes",
-      "AWS, Digital Ocean",
-      "Maya, Blender [3-D modeling, animation]",
-      "Unity, Unreal Engine [scripting]"
+    "frameworks": [
+      "React [Native], VueJS, Svelte",
+      "Docker, Podman, Kubernetes",
+      "AWS [ECS, SNS/SQS]",
+      "Postgres, Dynamo",
+      "Flink, Spark",
+      "Flask, NestJS, Spring Boot",
+      "Tensorflow, PyTorch, FastAI",
+      "Unity, Unreal Engine",
+      "Blender, Maya"
     ],
     "misc | other": [
+      "Active [critical reading group](https://argnotes.club) I run",
       "PIIRS Undergraduate Research Fellow, Berlin 2017",
       "Burda Hackday Munich 2016, 1st",
       "BICLazio Hack Rome 2015, 1st",
@@ -48,17 +47,26 @@
   "sections": [
     {
       "title": "interests",
-      "content": "Originally from New Zealand; interested in the aesthetics and politics of computing infrastructure, computer history, and other ways of thinking computing critically. I run a [bi-weekly technology studies reading group](https://argnotes.club/) in London. I have a [debut solo EP](https://open.spotify.com/album/4QArUFWoCa3NHP70W3dOEI) on Spotify 2016; [Princeton Footnotes](http://princetonfootnotes.com/) 2013-18; music director/actor in Princeton musicals 2013-2018; writer for the [Triangle Show](http://www.triangleshow.com/) 2013-2018; NZ Waterpolo representative 2012, Princeton Men's WP 2014."
+      "content": "Originally from New Zealand, I have worked as a software engineer building cloud infrastructure for machine learning models, a software researcher conceptualizing and building interactive visualizations, and previously as both a mobile developer and a full stack engineer."
     },
     {
       "title": "experience",
       "pills": [
         {
-          "left": "July 2018-present",
+          "left": "February 2021-",
           "body": {
-            "title": "Forensic Architecture: software lead",
-            "link": "https://forensic-architecture.org",
-            "content": "I direct engineering for several full stack platforms and machine learning workflows. I also sit on our data management committee for digital security, and offer expertise across investigations that are computer oriented. See forensic-architecture.org for more information."
+            "title": "Halter: Senior Software Engineer",
+            "link": "https://halterhq.com",
+            "content": "Building a feature store in Flink on AWS, devops in Docker/ConcourseCI for Python applications, contributions to microservices in Node/Java."
+          },
+          "right": "Auckland, New Zealand"
+        },
+        {
+          "left": "July 2018-2021",
+          "body": {
+            "title": "Forensic Architecture: Advanced Software Researcher",
+            "link": "https://forensic-architecture.org/about/team/member/lachie-kermode",
+            "content": "Engineering full stack platforms and machine learning workflows, conceptualizing and building interactive visualizations and tools to assist human rights research."
           },
           "right": "London, United Kingdom"
         },
@@ -67,7 +75,7 @@
           "body": {
             "title": "Merantix: full stack engineer",
             "link": "https://merantix.com",
-            "content": "I develop tooling for deep learning workflows on a part time basis for Merantix ventures. Working mainly in Python and the Jupyter notebook stack, we aim to augment tooling in industry DL. Technologies include Kubernetes, GCP, Tensorflow, Jupyter notebooks, Vue, and React."
+            "content": "Tooling for deep learning workflows, working mainly in Python and the Jupyter notebook stack, Kubernetes, GCP, Tensorflow, Vue, and React."
           },
           "right": "Berlin, Germany [remote]"
         },
@@ -76,7 +84,7 @@
           "body": {
             "title": "DirectDrinks: CTO and co-founder",
             "link": "https://directdrinks.co",
-            "content": "We provide a direct sales channels between large corporate suppliers and small resellers in the FMCG industry, disrupting a pipeline that is currently dominated by mid-tier redistributors. Digital platform for web, mobile, and tablet: directdrinks.com.au."
+            "content": "Platform for a direct sales channels between large corporate suppliers and small resellers in the FMCG industry, disrupting a pipeline that is currently dominated by mid-tier redistributors. Digital platform for web, mobile, and tablet."
           },
           "right": "Sydney, Australia"
         },
@@ -94,7 +102,7 @@
           "body": {
             "title": "Artirigo AG: full stack developer",
             "link": "https://github.com/Artirigo",
-            "content": "React Native frontend for iOS and Android. In addition, Dockerized and contributions to Rails application."
+            "content": "React Native frontend for iOS and Android. Contributions to a Rails application."
           },
           "right": "Bamberg, Germany"
         }
@@ -104,10 +112,19 @@
       "title": "education",
       "pills": [
         {
+          "left": "2021-",
+          "body": {
+            "title": "Brown University",
+            "content": "Graduate Student in Modern Culture and Media"
+          },
+          "right": "Providence, RI, USA"
+        },
+
+        {
           "left": "2013-2018",
           "body": {
             "title": "Princeton University",
-            "content": "Major in Computer Science. Classes also in intellectual history, media and cultural theory, performance theory, theatre et al."
+            "content": "B.A. in Computer Science"
           },
           "right": "Princeton, NJ, USA"
         }
