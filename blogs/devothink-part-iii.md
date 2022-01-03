@@ -1,7 +1,7 @@
 ---
 title: "Associative Archiving with DEVONthink: Part III"
 url: associative-archiving-with-devonthink-3
-date: 2020-12-30
+date: 2020-02-30
 ---
 Annotations in DT have long been a bit of a brain tangle for me. My spec for annotations (since I didn't go into this in [part I](https://lachlankermode.com/associative-archiving-with-devonthink-1)) is as follows: 
 

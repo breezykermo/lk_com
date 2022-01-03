@@ -1,7 +1,7 @@
 ---
 title: "Associative Archiving with DEVONthink: Part I"
 url: associative-archiving-with-devonthink-1 
-date: 2020-02-29
+date: 2020-02-28
 ---
 I've been using [DEVONthink](https://www.devontechnologies.com/apps/devonthink)
 (DT) idly for almost two years now. For those who aren't familiar with the
@@ -19,13 +19,13 @@ humanities in mind-- but I've tried to make it general and flexible enough to
 work with other contexts, such as scientific reading, as well.
 
 This is a two-part post. Here in part I, I'll present a specification of how
-I want to read, write, and archive in abstract terms. In Part II, I'll detail
+I want to read, write, and archive in abstract terms. In [Part II](/associative-archiving-with-devonthink-2), I'll detail
 the way that I've configured and customized DT to implement that spec in
 practice. I hope this can be helpful/instructive for some folks out there who
 similarly work with networks of citations in reading and writing projects, or
 who keep a personal archive of PDFs. 
 
-A note for readers looking to use the configurations and scripts in part II: DT
+A note for readers looking to use the configurations and scripts in Part II: DT
 is not free, and it's Mac-only. (I'm looking into virtualising it so that I can
 run it in Linux, but that project is yet to begin.) There is a generous
 150-hour free trial, but after that you'll need to make one-off payment of $99
@@ -145,5 +145,5 @@ before filing.
 
 ---
 
-In part II, I'll explain how I have implemented the archive explained here in
+In [Part II](/associative-archiving-with-devonthink-2), I'll explain how I have implemented the archive explained here in
 practice with DEVONthink.

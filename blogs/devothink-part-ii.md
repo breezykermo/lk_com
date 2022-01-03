@@ -1,7 +1,7 @@
 ---
 title: "Associative Archiving with DEVONthink: Part II"
 url: associative-archiving-with-devonthink-2
-date: 2020-12-29
+date: 2020-02-29
 ---
 Following on from [Part I](https://lachlankermode.com/associative-archiving-with-devonthink-1), here I'll unpack how I archive in practice using [DEVONthink](https://www.devontechnologies.com/de/apps/devonthink) (DT) as a driver. As I noted in part I, DT is a Mac-only application, and so in order to replicate my setup, you unfortunately need to have an Apple device. I'm actively looking for linux software that can simulate or replicate DT's functionality, as my primary workstation is [Artix on a modified LARBS](https://github.com/breezykermo/dotfiles), but I currently know of nothing that compares. In fact, it is pretty much solely DT's capabilities as archiving software that ties me to still using a Mac for some kinds of work. 
 
@@ -102,6 +102,6 @@ I use DT's inbox as my primary way of keeping track of links and documents to re
 If I didn't have an e-reader, I would probably read PDFs on my ipad via DT To Go as well: but because I start at a glowing blue screen so much in any case, I make a point of reading everything I can on my e-ink [Remarkable tablet](https://remarkable.com/). PDFs basically sit in my DT inbox for as long as I'm reading them, as a kind of reminder that I need to, and then once I have finished with them on Remarkable, I export them and replace the placeholder documents in DT with the annotated versions.
 
 ## To be continued...
-I only intended to have two parts, but in part III I'll explain how I manage annotations  on documents in DT. As I'll explain in more depth there, this is slightly beyond the scope of DT as an 'archive' per se, as it gets into how I use my DT archive to write and produce my own research.
+I only intended to have two parts, but in [Part III](/associative-archiving-with-devonthink-3) I'll explain how I manage annotations  on documents in DT. As I'll explain in more depth there, this is slightly beyond the scope of DT as an 'archive' per se, as it gets into how I use my DT archive to write and produce my own research.
 
-There'll also be a part IV, in which I'll go into more detail about my PKB and writing process. Both my annotation system and my PKB are more freshly minted than my DT archive, and as such they're still developing and are subject to change and improvement. They work pretty well for me at the moment, though, so I'll write up their processes in the hope they're useful/interesting to some.
+There might also be a part IV, in which I'll go into more detail about my PKB and writing process. Both my annotation system and my PKB are more freshly minted than my DT archive, and as such they're still developing and are subject to change and improvement. They work pretty well for me at the moment, though, so I'll write up their processes in the hope they're useful/interesting to some.
