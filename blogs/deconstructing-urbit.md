@@ -1,6 +1,6 @@
 ---
 title: "Deconstructing Urbit: The Politics of Software as Infrastructure"
-url: deconstrucing-urbit
+url: deconstructing-urbit
 date: 2022-02-21
 ---
 
@@ -12,12 +12,12 @@ Not feeling equipped to update the paper to adequately reflect and build upon th
 </p>
 
 <p>
-I make it <a href="https://lachlankermode.com/2022.09.21-deconstrucing-urbit.pdf">available here</a> as a &rsquo;preprint&rsquo; in the spirit of sharing unfinished academic work
+I make it <a href="https://lachlankermode.com/2022.09.21-deconstructing-urbit.pdf">available here</a> as a &rsquo;preprint&rsquo; in the spirit of sharing unfinished academic work
 I am particularly grateful to Nikolina Bobic and Farzaneh Haghighi for their close reading of the work in its draft stages, and their understanding regarding the non-publication at the time.
 Thank you also to Chiara Ficarelli, Francis Tseng, all those in Brown University’s STS reading group for their varied contributions in form and kind.
 Thank you also to the reviewer two of the first draft of this piece as it was originally submitted to the handbook, who put much needed pressure on the more extensive use of Lefebvre&rsquo;s ideas that existed in early drafts.
 All editorial and formatting mistakes are mine, as the piece is slightly restructured in comparison to what was originally submitted for the handbook.
 </p>
 
-[Read the essay here](https://lachlankermode.com/2022.09.21-deconstrucing-urbit.pdf).
+[Read the essay here](https://lachlankermode.com/2022.09.21-deconstructing-urbit.pdf).
 
