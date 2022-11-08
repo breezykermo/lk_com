@@ -30,9 +30,3 @@ HUGO_VERSION = "0.105.0"
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
 
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-
-
