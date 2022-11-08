@@ -24,3 +24,6 @@ So in early 2020, I fell into using emacs to experiment with [Org mode](https://
 At the suggestion of [zacoppotamus](https://github.com/zacoppotamus), I booted up [Doom Emacs](https://github.com/doomemacs/doomemacs) and pulled together [a config](https://github.com/breezykermo/.doom.d) that works for me.
 
 
+# Config files breakdown
+
+Coming soon...
