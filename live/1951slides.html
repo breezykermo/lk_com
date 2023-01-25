@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>CSCI 1951i</title>
+<meta name="author" content="Lachlan Kermode"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="/home/lox/.emacs.d/.local/straight/build-28.2/revealjs/dist/reveal.css"/>
+
+<link rel="stylesheet" href="/home/lox/.emacs.d/.local/straight/build-28.2/revealjs/dist/theme/blood.css" id="theme"/>
+
+<link rel="stylesheet" href="./img/reveal.css"/>
+<link rel="stylesheet" href="/home/lox/.emacs.d/.local/straight/build-28.2/revealjs/plugin/highlight/zenburn.css"/>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide" data-background="./img/cs1951i_bg.png" data-background-opacity="0.2">
+CS for Social Change
+</section>
+<div class="my-custom-class"></div>
+
+<section>
+<section id="slide-org2186fd2" data-background="./img/cs1951i_bg.png" data-background-opacity="0.2">
+<h2 id="org2186fd2">Lachlan Kermode</h2>
+<div class="my-custom-class"><p>
+<b>lk@brown.edu</b><br />
+</p>
+
+<p class="fragment (appear)">
+PhD Student in Modern Culture and Media.<br />
+</p>
+<p class="fragment (appear)">
+Masters Student in Computer Science.<br />
+</p>
+<p class="fragment (appear)">
+Research Fellow at Forensic Architecture.<br />
+</p>
+<p class="fragment (appear)">
+Data and Machine Learning Engineer.<br />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org3a7cc10" data-background="transperent" data-background-opacity="0.2" data-background-video="file:///home/lox/Dropbox (Brown)/lyt/img/forensic-architecture.webm" data-background-video-loop data-background-video-muted data-background-opacity="0.3">
+<h2 id="org3a7cc10">Forensic Architecture</h2>
+<div class="my-custom-class"></div>
+</section>
+</section>
+<section>
+<section id="slide-org9ea14c7" data-background="transperent" data-background-opacity="0.2" data-background-video="file:///home/lox/Dropbox (Brown)/lyt/img/the-syllabus.webm" data-background-video-loop data-background-video-muted data-background-opacity="0.3">
+<h2 id="org9ea14c7">The Syllabus</h2>
+<div class="my-custom-class"></div>
+</section>
+</section>
+<section>
+<section id="slide-orgbaa077f" data-background="transperent" data-background-opacity="0.2" data-background-video="file:///home/lox/Dropbox (Brown)/lyt/img/smat.webm" data-background-video-loop data-background-video-muted data-background-opacity="0.3">
+<h2 id="orgbaa077f">The Social Media Analysis Toolkit</h2>
+<div class="my-custom-class"></div>
+</section>
+</section>
+<section>
+<section id="slide-orga5a9862" data-background="transperent" data-background-opacity="0.2" data-background-video="file:///home/lox/Dropbox (Brown)/lyt/img/halter.webm" data-background-video-loop data-background-video-muted data-background-opacity="0.3">
+<h2 id="orga5a9862">Halter</h2>
+<div class="my-custom-class"></div>
+</section>
+</section>
+<section>
+<section id="slide-orgf81fecf" data-background="./img/lk_brown.png" data-background-opacity="0.2">
+<h2 id="orgf81fecf">Brown</h2>
+<div class="my-custom-class"></div>
+</section>
+</section>
+<section>
+<section id="slide-orgf953fd3" data-background="./img/cs1951i_bg.png" data-background-opacity="0.2">
+<h2 id="orgf953fd3">What is this course about?</h2>
+<div class="my-custom-class"><p class="fragment (appear)">
+How should we, as engineers, <i>think</i> about social change?<br />
+</p>
+
+<p class="fragment (appear)">
+The <b>social</b>.<br />
+</p>
+<p class="fragment (appear)">
+How <b>change</b> happens.<br />
+</p>
+<p class="fragment (appear)">
+What it means &ldquo;structurally&rdquo; to be an <b>engineer</b>.<br />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org1ca81fd" data-background="#222222" data-background-opacity="0.1">
+<h2 id="org1ca81fd"><br/></h2>
+<div class="my-custom-class"><table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-center" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-center">Week</th>
+<th scope="col" class="org-left">Date</th>
+<th scope="col" class="org-left">Tuesday</th>
+<th scope="col" class="org-left">Thursday</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-center">0</td>
+<td class="org-left">01.25 - 02.28</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left"><span style="color:var(--r-link-color);">Shopping period</span></td>
+</tr>
+
+<tr>
+<td class="org-center">1</td>
+<td class="org-left">01.29 - 02.04</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Structural thinking</td>
+</tr>
+
+<tr>
+<td class="org-center">2</td>
+<td class="org-left">02.05 - 02.11</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Structural thinking</td>
+</tr>
+
+<tr>
+<td class="org-center">3</td>
+<td class="org-left">02.12 - 02.18</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Capital</td>
+</tr>
+
+<tr>
+<td class="org-center">4</td>
+<td class="org-left">02.19 - 02.25</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Capital</td>
+</tr>
+
+<tr>
+<td class="org-center">5</td>
+<td class="org-left">02.26 - 03.04</td>
+<td class="org-left"><span style="color:var(--r-heading-color);">Midterm presentations</span></td>
+<td class="org-left">Labor</td>
+</tr>
+
+<tr>
+<td class="org-center">6</td>
+<td class="org-left">03.05 - 03.11</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Neoliberalism</td>
+</tr>
+
+<tr>
+<td class="org-center">7</td>
+<td class="org-left">03.12 - 03.18</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Neoliberalism</td>
+</tr>
+
+<tr>
+<td class="org-center">8</td>
+<td class="org-left">03.19 - 03.25</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Gender</td>
+</tr>
+
+<tr>
+<td class="org-center">9</td>
+<td class="org-left">03.26 - 04.01</td>
+<td class="org-left"><span style="color:var(--r-heading-color);">Spring break</span></td>
+<td class="org-left"><span style="color:var(--r-heading-color);">Spring break</span></td>
+</tr>
+
+<tr>
+<td class="org-center">10</td>
+<td class="org-left">04.02 - 04.08</td>
+<td class="org-left"><span style="color:var(--r-link-color);">[project work; no class]</span></td>
+<td class="org-left">Partner 1: The Peace Lab</td>
+</tr>
+
+<tr>
+<td class="org-center">11</td>
+<td class="org-left">04.09 - 04.15</td>
+<td class="org-left"><span style="color:var(--r-link-color);">[project work; no class]</span></td>
+<td class="org-left">Partner 2: Student Clinic for Immigrant Justice</td>
+</tr>
+
+<tr>
+<td class="org-center">12</td>
+<td class="org-left">04.16 - 04.22</td>
+<td class="org-left"><span style="color:var(--r-link-color);">[project work; no class]</span></td>
+<td class="org-left">Partner 3: Center for Health and Justice</td>
+</tr>
+
+<tr>
+<td class="org-center">13</td>
+<td class="org-left">04.23 - 04.29</td>
+<td class="org-left"><span style="color:var(--r-link-color);">[project work; no class]</span></td>
+<td class="org-left">Partner 4: iCareForYou</td>
+</tr>
+
+<tr>
+<td class="org-center">14</td>
+<td class="org-left">04.30 - 04.06</td>
+<td class="org-left"><span style="color:var(--r-link-color);">Reading period</span></td>
+<td class="org-left"><span style="color:var(--r-link-color);">Reading period</span></td>
+</tr>
+
+<tr>
+<td class="org-center">15</td>
+<td class="org-left">04.07 - 04.13</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left"><span style="color:var(--r-heading-color);">Final project submissions</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-org140f3b8" data-background="#222222" data-background-opacity="0.1">
+<h2 id="org140f3b8"><br/></h2>
+<div class="my-custom-class"><table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-center" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-center">Week</th>
+<th scope="col" class="org-left">Title</th>
+<th scope="col" class="org-left">Readings</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-center">1</td>
+<td class="org-left">Structural thinking</td>
+<td class="org-left"><ul><li>"Demystifying Big Tech with Meredith Whittaker" [audio] - Meredith Whittaker and Astra Taylor</li></ul></td>
+</tr>
+
+<tr>
+<td class="org-center">2</td>
+<td class="org-left">Structural thinking</td>
+<td class="org-left"><ul><li>"When Did the Fire Start?" in <i>Your Computer is on Fire</i> - Mar Hicks</li><li>"The Internet We Could Have Had" - Chris Kelty</li></ul></td>
+</tr>
+
+<tr>
+<td class="org-center">3</td>
+<td class="org-left">Capital</td>
+<td class="org-left"><ul><li>"David Harvey on Capital" [audio] - David Harvey and Daniel Denver</li></ul></td>
+</tr>
+
+<tr>
+<td class="org-center">4</td>
+<td class="org-left">Capital</td>
+<td class="org-left"><ul><li>"The Making of the Tech Worker Movement" - Ben Tarnoff</li><li><i>Internet for the People: The Fight for our Digital Future</i> - Ben Tarnoff</li></ul></td>
+</tr>
+
+<tr>
+<td class="org-center">5</td>
+<td class="org-left">Labor</td>
+<td class="org-left"><ul><li>"Coding is Not Empowerment" in <i>Your Computer is on Fire</i> - Janet Abbate</li><li><i>Breaking Things at Work</i> [audio] - Gavin Mueller</li></ul></td>
+</tr>
+
+<tr>
+<td class="org-center">6</td>
+<td class="org-left">Neoliberalism</td>
+<td class="org-left"><ul><li>"The Big Picture: Defending Society" - Wendy Brown</li><li>"Platforms are Infrastructures on Fire" in <i>Your Computer is on Fire</i> - Paul N. Edwards</li></ul></td>
+</tr>
+
+<tr>
+<td class="org-center">7</td>
+<td class="org-left">Neoliberalism</td>
+<td class="org-left"><ul><li>"Counterculture to Cyberculture with Fred Turner" - Fred Turner and Daniel Denver</li><li><i>Hegemony Now: How Big Tech and Wall Street Won the World (And How We Win It Back)</i> - Jeremy Gilbert and Alex Williams</li></ul></td>
+</tr>
+
+<tr>
+<td class="org-center">8</td>
+<td class="org-left">Gender</td>
+<td class="org-left"><ul><li>"Sexism is a Feature, Not a Bug" in <i>Your Computer is on Fire</i> - Mar Hicks</li><li>"When Computers Were Women" - Jennifer S. Light</li></ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org8ba75eb" data-background="./img/cs1951i_bg.png" data-background-opacity="0.2">
+<h2 id="org8ba75eb">Partnering Organizations</h2>
+<div class="my-custom-class"><p class="fragment (appear)">
+All 4 partners are not-for-profit organizations who work locally in Rhode Island.<br />
+</p>
+<p class="fragment (appear)">
+We will work in 4 groups of 5 to deliver a project for each by the end of the semester.<br />
+</p>
+<p class="fragment (appear)">
+One of our lovely TAs will steward each of the 4 projects.<br />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org126b866" data-background="./img/the-peace-lab.png" data-background-opacity="0.1">
+<h2 id="org126b866">Peace Lab</h2>
+<div class="my-custom-class"><p class="fragment (appear)">
+<b>TA</b>: Ahmad Jamal Alkhatib<br />
+</p>
+<p class="fragment (appear)">
+<b>Project</b>: Pushshift and Global News Index Data Visualization<br />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-orgb9192d8" data-background="./img/scij.png" data-background-opacity="0.1">
+<h2 id="orgb9192d8">Student Clinic for Immigrant Justice</h2>
+<div class="my-custom-class"><p class="fragment (appear)">
+<b>TA</b>: Valerie Aguilar Dellisanti<br />
+</p>
+<p class="fragment (appear)">
+<b>Project</b>: Student Information Portal<br />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org9905f6b" data-background="./img/chjt.png" data-background-opacity="0.1">
+<h2 id="org9905f6b">Center for Health and Justice Transformation</h2>
+<div class="my-custom-class"><p class="fragment (appear)">
+<b>TA</b>: Trevor Ing<br />
+</p>
+<p class="fragment (appear)">
+<b>Project</b>: Voting Outcomes for Criminal Justice Bills Portal<br />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org899cb16" data-background="./img/icareforyou.png" data-background-opacity="0.1">
+<h2 id="org899cb16">iCareForYou</h2>
+<div class="my-custom-class"><p class="fragment (appear)">
+<b>TA</b>: Blake Shao<br />
+</p>
+<p class="fragment (appear)">
+<b>Project</b>: Tablet-based communication between patients and nurses<br />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org36750f5" data-background="./img/cs1951i_bg.png" data-background-opacity="0.2">
+<h2 id="org36750f5">Course Waitlist</h2>
+<div class="my-custom-class"><p class="fragment (appear)">
+An upper limit of 20 students.<br />
+</p>
+<p class="fragment (appear)">
+More than 50 applications.<br />
+</p>
+<p class="fragment (appear)">
+Deadline for accepted students to confirm is:<br />
+<b>Tuesday 31st January at midnight</b>.<br />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org2e62af8" data-background="./img/cs1951i_bg.png" data-background-opacity="0.2">
+<h2 id="org2e62af8">Questions?</h2>
+</section>
+</section>
+</div>
+</div>
+<script src="/home/lox/.emacs.d/.local/straight/build-28.2/revealjs/dist/reveal.js"></script>
+<script src="/home/lox/.emacs.d/.local/straight/build-28.2/revealjs/plugin/highlight/highlight.js"></script>
+<script src="/home/lox/.emacs.d/.local/straight/build-28.2/revealjs/plugin/math/math.js"></script>
+<script src="/home/lox/.emacs.d/.local/straight/build-28.2/revealjs/plugin/notes/notes.js"></script>
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: false,
+progress: true,
+history: false,
+center: true,
+slideNumber: false,
+rollingLinks: false,
+keyboard: true,
+mouseWheel: false,
+fragmentInURL: false,
+hashOneBasedIndex: false,
+pdfSeparateFragments: true,
+overview: true,
+width: 1400,
+margin: 0.20,
+
+transition: 'fade',
+transitionSpeed: 'default',
+
+// Plugins with reveal.js 4.x
+plugins: [ RevealHighlight, RevealMath, RevealNotes ],
+
+// Optional libraries used to extend reveal.js
+dependencies: [
+]
+
+});
+</script>
+</body>
+</html>
