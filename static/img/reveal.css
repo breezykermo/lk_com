@@ -1,0 +1,24 @@
+:root {
+    --r-link-color: #fff703;
+    /* --r-link-color: #c6915b; */
+    /* --r-link-color: #f95252; */
+    --r-heading-color: #e6edf7;
+}
+.hlt {
+    color: var(--r-link-color);
+}
+
+.reveal blockquote {
+    text-align: left;
+    font-size: 24pt;
+    padding: 0 1em;
+}
+
+.reveal .controls-arrow { display: none; }
+
+p {
+    text-align: left;
+}
+
+.slide-number { display: none !important; }
+

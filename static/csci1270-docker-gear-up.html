@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Docker and Jupyter Gear-Up</title>
+<meta name="author" content="Lachlan Kermode"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"/>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/black.css" id="theme"/>
+
+<link rel="stylesheet" href="./img/reveal.css"/>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide">
+<div>Docker and Jupyter Gear-Up</div><div class="hlt">CSCI 1270</div><br>
+</section>
+
+
+
+<section>
+<section id="slide-org462b734">
+<h2 id="org462b734">What we&rsquo;ll cover</h2>
+<ul>
+<li class="fragment appear">Docker</li>
+<li class="fragment appear">Jupyter</li>
+<li class="fragment appear">Assignments SQL, Distributed, Streaming</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgeddd976">
+<h2 id="orgeddd976">What is Docker?</h2>
+<p class="fragment (appear)">
+A software toolkit for running <b>containers</b>.
+</p>
+
+<p class="fragment (appear)">
+Containers are essentially lightweight virtual machines, providing a way to run arbitrarily complex software without installing anything but Docker on the host machine.
+</p>
+
+<p class="fragment (appear)">
+Docker deals with underlying OS (Windows, Mac, Linux) in the host: our software runs on a unified virtual OS.
+</p>
+</section>
+</section>
+<section>
+<section id="slide-org14d4ac1">
+<h2 id="org14d4ac1">Installation</h2>
+<p>
+<a href="https://docs.docker.com/engine/install/">Docker Desktop</a> installation instructions:
+</p>
+<ul>
+<li><a href="https://docs.docker.com/desktop/install/mac-install/">MacOS</a> (<code>x86_64</code> and <code>arm64</code>)</li>
+<li><a href="https://docs.docker.com/desktop/install/windows-install/">Windows</a></li>
+<li><a href="https://docs.docker.com/desktop/install/linux-install/">Linux</a></li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-orga7bff75">
+<h2 id="orga7bff75">What is Docker Compose</h2>
+<p class="fragment (appear)">
+An <b>orchestration</b> tool.
+</p>
+<p class="fragment (appear)">
+Orchestrates various containers running together, with open ports, networking, and file system mappings.
+</p>
+<p class="fragment (appear)">
+Allows us to orchestrate a set of relevant containers (simulating distinct machines) with a single command:
+<code>docker-compose up</code>
+</p>
+</section>
+</section>
+<section>
+<section id="slide-org730d453">
+<h2 id="org730d453">Installation</h2>
+<p>
+Docker Compose is included with Docker Desktop.
+</p>
+
+<p>
+See <a href="https://docs.docker.com/compose/install/">this documentation</a> for more information.
+</p>
+</section>
+</section>
+<section>
+<section id="slide-org7eb27dc">
+<h2 id="org7eb27dc">Demo (Docker)</h2>
+<ul>
+<li class="fragment appear"><code>docker ps</code></li>
+<li class="fragment appear"><code>docker images</code></li>
+<li class="fragment appear"><code>docker run -it busybox sh</code></li>
+<li class="fragment appear"><code>docker run -it ubuntu bash</code></li>
+<li class="fragment appear"><code>docker run -it debian bash</code></li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org6c45386">
+<h2 id="org6c45386">Demo (Docker Compose)</h2>
+<ul>
+<li class="fragment appear"><code>git clone git@github.com:csci1270-fall-2023/sql-stencil.git</code></li>
+<li class="fragment appear"><code>cd a2-stencil</code></li>
+<li class="fragment appear"><code>cat docker-compose.yml</code></li>
+<li class="fragment appear"><code>docker-compose up -d</code></li>
+<li class="fragment appear"><code>open http://localhost:8888</code></li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgcfb18ce">
+<h2 id="orgcfb18ce">What is Jupyter Lab/Notebook?</h2>
+<p class="fragment (appear)">
+A web interface used for interactive computing.
+</p>
+
+<p class="fragment (appear)">
+Particularly popular in data science and machine learning, and typically used with a Python kernel.
+</p>
+
+<p class="fragment (appear)">
+Provides both <b>executable</b> and <b>Markdown</b> cells, which can be interspersed in a notebook.
+</p>
+</section>
+</section>
+<section>
+<section id="slide-orgca1dbdd">
+<h2 id="orgca1dbdd">Installation</h2>
+<p>
+Throughout the course, we always run Jupyter within a Docker container as part of a Docker Compose orchestration.
+</p>
+
+<p>
+This insulates students from having to install Jupyter or supporting libraries on their host machine, and allows us to configure custom environments (useful in Distributed and Streaming assignments)
+</p>
+</section>
+</section>
+<section>
+<section id="slide-org0b88191">
+<h2 id="org0b88191">Demo (SQL)</h2>
+<ul>
+<li class="fragment appear"><code>git clone git@github.com:csci1270-fall-2023/sql-stencil.git</code></li>
+<li class="fragment appear"><code>docker-compose up -d</code></li>
+<li class="fragment appear"><code>open http://localhost:8888</code></li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgd2d2b55">
+<h2 id="orgd2d2b55">Demo (Streaming)</h2>
+<ul>
+<li class="fragment appear"><code>git clone git@github.com:csci1270-fall-2023/streaming-stencil.git</code></li>
+<li class="fragment appear"><code>docker-compose up -d</code></li>
+<li class="fragment appear"><code>open http://localhost:8888</code></li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org9926107">
+<h2 id="org9926107">Questions?</h2>
+</section>
+</section>
+<section>
+<section id="slide-org1e5afe5">
+<h2 id="org1e5afe5">Other tools (Docker)</h2>
+<ul>
+<li class="fragment appear"><a href="https://www.jetbrains.com/help/idea/docker.html">IntelliJ Docker</a></li>
+<li class="fragment appear"><a href="https://github.com/jesseduffield/lazydocker">lazydocker</a></li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgd1cbe30">
+<h2 id="orgd1cbe30">Other tools (Jupyter)</h2>
+<ul>
+<li class="fragment appear"><a href="https://github.com/nteract/nteract">nteract</a></li>
+<li class="fragment appear"><a href="https://nbdev.fast.ai/">nbdev</a></li>
+
+</ul>
+</section>
+</section>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/search/search.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/zoom/zoom.js"></script>
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+mouseWheel: false,
+fragmentInURL: false,
+hashOneBasedIndex: false,
+pdfSeparateFragments: true,
+overview: true,
+
+transition: 'convex',
+transitionSpeed: 'default',
+
+// Plugins with reveal.js 4.x
+plugins: [ RevealMarkdown, RevealNotes, RevealSearch, RevealZoom ],
+
+// Optional libraries used to extend reveal.js
+dependencies: [
+]
+
+});
+</script>
+</body>
+</html>
