@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>EdStem</title>
+<meta name="author" content="Lachlan Kermode"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"/>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/black.css" id="theme"/>
+
+<link rel="stylesheet" href="./img/reveal.css"/>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide">
+<div>EdStem</div><div class="hlt">CSCI 1270</div><br>
+</section>
+
+
+
+<section>
+<section id="slide-org660aa9a">
+<h2 id="org660aa9a">What we&rsquo;ll cover</h2>
+<ul>
+<li class="fragment appear">Edstem</li>
+<li class="fragment appear">TA Hours</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-orga882dee">
+<h2 id="orga882dee">What is EdStem?</h2>
+<p class="fragment (appear)">
+Semi-standardized discussion forum for Brown CS classes.
+</p>
+
+<p class="fragment (appear)">
+The first entry point for students to get asynchronous help.
+</p>
+</section>
+</section>
+<section>
+<section id="slide-org47239d4">
+<h2 id="org47239d4">EdStem | TA hours</h2>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides" class="fragment (appear)">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">Asynchronous</td>
+<td class="org-left">Synchronous</td>
+</tr>
+
+<tr>
+<td class="org-left">Problem visible to all TAs</td>
+<td class="org-left">Problem visible to one TA</td>
+</tr>
+
+<tr>
+<td class="org-left">Optionally public (visible to all students)</td>
+<td class="org-left">Exclusively private (visible to one student)</td>
+</tr>
+
+<tr>
+<td class="org-left">Problem can be solved in hours, days</td>
+<td class="org-left">Problem must be solved within 10/20 minutes</td>
+</tr>
+</tbody>
+</table>
+
+</section>
+</section>
+<section>
+<section id="slide-org5267e72">
+<h2 id="org5267e72">Edstem first</h2>
+<p>
+How to encourage students to post to EdStem:
+</p>
+
+<ul>
+<li class="fragment appear">Encourage students to post <i>privately</i> on EdStem with specific problems.</li>
+<li class="fragment appear">As TA staff, we can then decide to make a post public if we think it will be useful.</li>
+<li class="fragment appear">Create a clear protocol for linking to student code in EdStem posts.</li>
+<li class="fragment appear">Show status of EdStem posts so that students know their problem is being considered.</li>
+<li class="fragment appear">Respond as promptly and comprehensively to questions as possible.</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org3e4e492">
+<h2 id="org3e4e492">Encouraging EdStem</h2>
+<p>
+<span class="underline">Suggestion</span>: we explicitly encourage to post on EdStem <i>before</i> coming to TA hours, and to provide a link to the EdStem post in their TA hour sign-up.
+</p>
+
+<p>
+This will discourage arbitrary TA hour sign-ups, and will allow preempting of solutions in some cases (if a TA is able to solve the problem on EdStem before the TA hour slot).
+</p>
+</section>
+</section>
+<section>
+<section id="slide-orgc875dcd">
+<h2 id="orgc875dcd">Linking to student code</h2>
+<p class="fragment (appear)">
+Encourage students to do this using Github, which allows linking to blocks and specific lines of code.
+</p>
+
+<p class="fragment (appear)">
+Example:
+</p>
+
+<blockquote class="fragment (appear)">
+<p>
+I am unable to get the streaming stencil running. Running Windows 10, there seems to be an issue with the <code>notebook</code> container. (I think it relates to <a href="https://github.com/csci1270-fall-2023/streaming-stencil/blob/master/docker-compose.yml#L17-L28">this code</a> in the <code>docker-compose.yml</code> file.)
+</p>
+</blockquote>
+
+</section>
+</section>
+<section>
+<section id="slide-org229f0d6">
+<h2 id="org229f0d6">EdStem new question triaging workflow</h2>
+<div class="outline-text-2" id="text-org229f0d6">
+</div>
+</section>
+<section id="slide-org30543dd">
+<h3 id="org30543dd">First phase</h3>
+<ul>
+<li class="fragment appear">Is it a question for which we already have an answer?</li>
+<li class="fragment appear">Does the question need more context from the student?</li>
+<li class="fragment appear">Has the student assigned the right categories to the question (i.e. &ldquo;Assignment 1&rdquo;); should we add any categories?</li>
+<li class="fragment appear">Should the question be looked at more comprehensively by a TA?</li>
+
+</ul>
+
+</section>
+<section id="slide-orgf84c01f">
+<h3 id="orgf84c01f">Second phase</h3>
+<ul>
+<li class="fragment appear">If the question should be looked at, assign it to a TA, and reply to the student saying &ldquo;Assigned to a TA.&rdquo;</li>
+
+</ul>
+</section>
+<section id="slide-org52f45e4">
+<h3 id="org52f45e4">Third phase</h3>
+<ul>
+<li class="fragment appear">Respond. Assigned TA becomes responsible.</li>
+<li class="fragment appear">Track progress on EdStem posts that have been opened for a long time.</li>
+<li class="fragment appear">Institute good knowledge sharing between TAs when struggling to help.</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org1db6406">
+<h2 id="org1db6406">Automation</h2>
+<p>
+Eventually we will aim to automate this process. To begin with, Lachlan will do all first passes, and will (likely) create a Google Sheet to track status.
+</p>
+
+<p>
+As we get more familiar with EdStem as a system, we will hopefully improve this protocol.
+</p>
+</section>
+</section>
+<section>
+<section id="slide-org7cd6de1">
+<h2 id="org7cd6de1">Responding as promptly as possible</h2>
+<ul>
+<li class="fragment appear">Create a TA &rsquo;playbook&rsquo; for responding ot certain kinds of questions, for example on particular assignments.</li>
+<li class="fragment appear">Manage our own backlog of EdStem requests effectively. (During downtime in TA hours, for example.)</li>
+<li class="fragment appear"><span class="underline">Suggestion</span>: create an &rsquo;on call&rsquo; TA schedule for first pass triaging of EdStem. (This will likely happen in Week 1 or 2, once Lachlan has set up the system.)</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgf26fbbc">
+<h2 id="orgf26fbbc">Other idea?</h2>
+</section>
+</section>
+<section>
+<section id="slide-org4c07650">
+<h2 id="org4c07650">Questions?</h2>
+</section>
+</section>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/search/search.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/zoom/zoom.js"></script>
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+mouseWheel: false,
+fragmentInURL: false,
+hashOneBasedIndex: false,
+pdfSeparateFragments: true,
+overview: true,
+
+transition: 'convex',
+transitionSpeed: 'default',
+
+// Plugins with reveal.js 4.x
+plugins: [ RevealMarkdown, RevealNotes, RevealSearch, RevealZoom ],
+
+// Optional libraries used to extend reveal.js
+dependencies: [
+]
+
+});
+</script>
+</body>
+</html>
