@@ -3,6 +3,7 @@
     /* --r-link-color: #c6915b; */
     /* --r-link-color: #f95252; */
     --r-heading-color: #e6edf7;
+    --r-heading-text-transform: none;
 }
 .hlt {
     color: var(--r-link-color);
@@ -10,8 +11,12 @@
 
 .reveal blockquote {
     text-align: left;
-    font-size: 24pt;
+    font-size: 18pt;
     padding: 0 1em;
+}
+
+.reveal table td, .reveal table {
+    border-color: transparent;
 }
 
 .reveal .controls-arrow { display: none; }
@@ -21,4 +26,3 @@ p {
 }
 
 .slide-number { display: none !important; }
-
