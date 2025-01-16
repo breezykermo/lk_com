@@ -28,5 +28,4 @@
 - [[./posts/on-gods-and-campervans.org][On Gods and Campervans]]
 - [[./posts/sweet-tooth-for-baristas.org][Sweet Tooth (for baristas)]]
 - [[./posts/a-comparison-of-elm-and-react.org][A Comparison of Elm and React]]
-- [[./posts/a-comparison-of-elm-and-react.org][A Comparison of Elm and React]]
 - [[./posts/the-towpath-to-react-and-redux.org][The Towpath to React and Redux]]
