@@ -29,9 +29,9 @@ follows Nick Milo's
 for note-taking, and contains notes that range from handy bash commands,
 to lecture notes, to article drafts.
 
-#+begin_example
+#+begin_html
 <img src="static/obsidian-graph.png" width="100%">
-#+end_example
+#+end_html
 
 #+begin_quote
 My Obsidian graph. Edges between notes represent lateral links.
@@ -67,9 +67,9 @@ create a database, in which you can then store files of various kinds.
 With DT, you can then effectively browse and modify the contents of your
 databases.
 
-#+begin_example
+#+begin_html
 <img src="static/dt-base-view.png" width="100%">
-#+end_example
+#+end_html
 
 DT is superior to a traditional file manager in a range of ways.
 Firstly, it is conceived as a way both to find files, /and to view
@@ -123,9 +123,9 @@ use tags extensively. DT's tagging system is what makes it so effective
 as an engine for associative archiving. You can filter for documents
 associated with one or more tags in any database:
 
-#+begin_example
+#+begin_html
 <img src="static/filtered-by-tag.png" width="100%">
-#+end_example
+#+end_html
 
 In addition to basic filters, i.e. for documents that are associated
 with a particular tag, you can compose arbitrarily sophisticated filters
@@ -133,9 +133,9 @@ over a database to retrieve matching documents. These filters can make
 use of document tags; but also all of their other metadata, such as date
 created, date modified, document kind, to name just a few:
 
-#+begin_example
+#+begin_html
 <img src="static/with-metadata.png" width="100%">
-#+end_example
+#+end_html
 
 In addition to this metadata query language, DT provides impressively
 effective full text search. This operates over documents of all kinds:
@@ -150,9 +150,9 @@ must relevant results come to this top. Searches can be done either
 succinctly via DT's query language in the search bar, or visually using
 the provided GUI.
 
-#+begin_example
+#+begin_html
 <img src="static/gui-search.png" width="100%">
-#+end_example
+#+end_html
 
 * Associative archiving in DEVONthink
 :PROPERTIES:
@@ -180,9 +180,9 @@ dynamically show me all documents within that project. From this
 workspace, I can then further search and filter over tags, metadata, or
 contents.
 
-#+begin_example
+#+begin_html
 <img src="static/tag-as-project.png" width="100%">
-#+end_example
+#+end_html
 
 ** Associative tagging
 :PROPERTIES:
