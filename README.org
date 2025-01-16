@@ -1,0 +1,7 @@
+To generate the index HTML run:
+
+#+begin_src bash
+pandoc -s --bibliography $HOME/Brown\ Dropbox/Lachlan\ Kermode/lyt/references/master.bib --citeproc --csl $HOME/Brown\ Dropbox/Lachlan\ Kermode/lyt/references/chicago-name-date.csl -o index.html index.org 
+#+end_src
+
+Or: ~<leader>aeT~ from neovim.

@@ -1,0 +1,1 @@
+Anything in this folder is available both with the prefix "/live", and at the root.
