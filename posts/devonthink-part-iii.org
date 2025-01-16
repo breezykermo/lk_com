@@ -128,7 +128,7 @@ part of the way there by using a naming schema for RTF annotations, but
 it was still a bit messy by my measure.
 
 #+begin_html
-<img src="static/rtf-note-example.png" width="100%">
+<img src="/static/rtf-note-example.png" width="100%">
 #+end_html
 
 Most importantly, creating annotations from outside DEVONthink gets
@@ -178,7 +178,7 @@ this won't work using my clips, as the DT URLs are local to my
 computer).
 
 #+begin_html
-<img src="static/hili-with-dt-html.png" width="100%">
+<img src="/static/hili-with-dt-html.png" width="100%">
 #+end_html
 
 The HTML view of clips pictured above is handy, and is nice to confirm
@@ -238,7 +238,7 @@ sometimes did with Word docs), and one click away from their source
 documents like the HTML view.
 
 #+begin_html
-<img src="static/clips-rss-in-dt.png" width="100%">
+<img src="/static/clips-rss-in-dt.png" width="100%">
 #+end_html
 
 * More to come...

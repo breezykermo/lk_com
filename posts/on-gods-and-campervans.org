@@ -21,7 +21,7 @@ and rocky coastlines of the North Island, is now only a company that
 sells and rents camper vans.
 
 #+begin_html
-<img src="static/maui.gif" height="300">
+<img src="/static/maui.gif" height="300">
 #+end_html
 
 There are no longer conflicts amongst the gods. A storm is not

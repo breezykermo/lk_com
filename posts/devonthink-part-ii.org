@@ -30,7 +30,7 @@ for note-taking, and contains notes that range from handy bash commands,
 to lecture notes, to article drafts.
 
 #+begin_html
-<img src="static/obsidian-graph.png" width="100%">
+<img src="/static/obsidian-graph.png" width="100%">
 #+end_html
 
 #+begin_quote
@@ -68,7 +68,7 @@ With DT, you can then effectively browse and modify the contents of your
 databases.
 
 #+begin_html
-<img src="static/dt-base-view.png" width="100%">
+<img src="/static/dt-base-view.png" width="100%">
 #+end_html
 
 DT is superior to a traditional file manager in a range of ways.
@@ -124,7 +124,7 @@ as an engine for associative archiving. You can filter for documents
 associated with one or more tags in any database:
 
 #+begin_html
-<img src="static/filtered-by-tag.png" width="100%">
+<img src="/static/filtered-by-tag.png" width="100%">
 #+end_html
 
 In addition to basic filters, i.e. for documents that are associated
@@ -134,7 +134,7 @@ use of document tags; but also all of their other metadata, such as date
 created, date modified, document kind, to name just a few:
 
 #+begin_html
-<img src="static/with-metadata.png" width="100%">
+<img src="/static/with-metadata.png" width="100%">
 #+end_html
 
 In addition to this metadata query language, DT provides impressively
@@ -151,7 +151,7 @@ succinctly via DT's query language in the search bar, or visually using
 the provided GUI.
 
 #+begin_html
-<img src="static/gui-search.png" width="100%">
+<img src="/static/gui-search.png" width="100%">
 #+end_html
 
 * Associative archiving in DEVONthink
@@ -181,7 +181,7 @@ workspace, I can then further search and filter over tags, metadata, or
 contents.
 
 #+begin_html
-<img src="static/tag-as-project.png" width="100%">
+<img src="/static/tag-as-project.png" width="100%">
 #+end_html
 
 ** Associative tagging
