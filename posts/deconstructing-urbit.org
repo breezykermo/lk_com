@@ -1,6 +1,6 @@
 #+title: Deconstructing Urbit: The Politics of Software as Infrastructure
 #+author: Lachlan Kermode
-#+date: 2022-02-21
+#+date: 21 February 2022 
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/style.css" />
 
 #+begin_html

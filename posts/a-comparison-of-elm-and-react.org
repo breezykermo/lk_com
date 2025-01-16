@@ -1,6 +1,6 @@
 #+title: A comparison of Elm and React (in code) 
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css" />
-#+date: 2017-01-22
+#+date: 22 January 2017 
 
 #+begin_html
   <p>

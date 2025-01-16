@@ -1,3 +1,7 @@
+#+title: On Stranger Things
+#+author: Lachlan Kermode
+#+date: 18 February 2022
+
 (If this website isn't rendering nicely or you want to read this
 offline, see the
 [[https://lachlankermode.com/2022.09.18-stranger-things.pdf][PDF

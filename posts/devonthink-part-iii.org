@@ -1,3 +1,7 @@
+#+title: Associative Archiving with DEVONThink (Part III)
+#+author: Lachlan Kermode
+#+date: 1 March 2020
+
 Annotations in DT have long been a bit of a brain tangle for me. My spec
 for annotations (since I didn't go into this in
 [[https://lachlankermode.com/associative-archiving-with-devonthink-1][part
@@ -92,7 +96,7 @@ for many folks' file management philosophies. For many, DT is a starting
 point: it opens up onto other applications. Having some sort of
 DT-specific file type for annotations would run against this.
 
-** Annotations as RTFs (my old approach)
+* Annotations as RTFs (my old approach)
 :PROPERTIES:
 :CUSTOM_ID: annotations-as-rtfs-my-old-approach
 :END:
@@ -137,7 +141,7 @@ straightfoward format to generate. (Although admittedly you could
 replace RTFs with Markdown or something similar; it just wouldn't look
 as nice inside DT.)
 
-** Annotations as RSS (my current approach)
+* Annotations as RSS (my current approach)
 :PROPERTIES:
 :CUSTOM_ID: annotations-as-rss-my-current-approach
 :END:
@@ -237,7 +241,7 @@ documents like the HTML view.
 <img src="static/clips-rss-in-dt.png" width="100%">
 #+end_example
 
-** More to come...
+* More to come...
 :PROPERTIES:
 :CUSTOM_ID: more-to-come
 :END:

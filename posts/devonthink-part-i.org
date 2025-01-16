@@ -1,3 +1,7 @@
+#+title: Associative Archiving with DEVONThink (Part I)
+#+author: Lachlan Kermode
+#+date: 28 February 2020
+
 I've been using
 [[https://www.devontechnologies.com/apps/devonthink][DEVONthink]] (DT)
 idly for almost two years now. For those who aren't familiar with the
@@ -17,7 +21,7 @@ as well.
 
 This is a two-part post. Here in part I, I'll present a specification of
 how I want to read, write, and archive in abstract terms. In
-[[/associative-archiving-with-devonthink-2][Part II]], I'll detail the
+[[./devonthink-part-ii.org][Part II]], I'll detail the
 way that I've configured and customized DT to implement that spec in
 practice. I hope this can be helpful/instructive for some folks out
 there who similarly work with networks of citations in reading and
@@ -33,7 +37,7 @@ Developing and maintaining software takes time and effort. I'm very
 grateful to the folks at DEVONthink keeping up with the community, and
 keeping the software feature-rich and flexible.
 
-*** Projects
+* Projects
 :PROPERTIES:
 :CUSTOM_ID: projects
 :END:
@@ -68,7 +72,7 @@ documents might be either a PDF or a webpages. (Hardcopy books can't be
 hyperlinked, so quotes for these are just traditionally referenced by
 page number).
 
-*** Project workspaces
+* Project workspaces
 :PROPERTIES:
 :CUSTOM_ID: project-workspaces
 :END:
@@ -87,7 +91,7 @@ the thought in a project. The project workspace is where I sift through
 these thoughts, putting them to use in the project, whether that be
 towards code, writing, conversation, or whatever else.
 
-*** An associative archive
+* An associative archive
 :PROPERTIES:
 :CUSTOM_ID: an-associative-archive
 :END:
@@ -112,7 +116,7 @@ hierarchical layers as possible/ in my tagging system. This keeps me
 diligent regarding the tags I add to my archive, encouraging fewer of
 them and ensuring that the ones I do add are expressive and memorable.
 
-*** The inbox
+* The inbox
 :PROPERTIES:
 :CUSTOM_ID: the-inbox
 :END:
@@ -154,6 +158,6 @@ filing.
 
 --------------
 
-In [[/associative-archiving-with-devonthink-2][Part II]], I'll explain
+In [[./devonthink-part-ii.org][Part II]], I'll explain
 how I have implemented the archive explained here in practice with
 DEVONthink.

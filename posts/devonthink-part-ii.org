@@ -1,3 +1,7 @@
+#+title: Associative Archiving with DEVONThink (Part II)
+#+author: Lachlan Kermode
+#+date: 29 February 2020
+
 Following on from
 [[https://lachlankermode.com/associative-archiving-with-devonthink-1][Part
 I]], here I'll unpack how I archive in practice using
@@ -53,7 +57,7 @@ comments in general, please do feel free to
 [[mailto:lachiekermode@gmail.com][email me]]. If you've taken the time
 to read this, I'd love to hear from you! :)
 
-** DEVONthink in a nutshell
+* DEVONthink in a nutshell
 :PROPERTIES:
 :CUSTOM_ID: devonthink-in-a-nutshell
 :END:
@@ -101,12 +105,12 @@ list of files on the left-hand side. You can even modify its orientation
 with respect to the document viewing panel (which can sit on the right
 as pictured above, below the file list, or be hidden).
 
-** Organisational concepts in DT
+* Organisational concepts in DT
 :PROPERTIES:
 :CUSTOM_ID: organisational-concepts-in-dt
 :END:
 There are two primary organisational concepts in DT: *groups* and
-*tags*. Groups are essentially folders: nodes that exist as the parent
+tags*. Groups are essentially folders: nodes that exist as the parent
 to a collection of children documents. Tags are more flexible, and less
 hierarchical. They are distinct tokens that can be associated with any
 document, and subsequently used as composable filters to view associated
@@ -150,7 +154,7 @@ the provided GUI.
 <img src="static/gui-search.png" width="100%">
 #+end_example
 
-** Associative archiving in DEVONthink
+* Associative archiving in DEVONthink
 :PROPERTIES:
 :CUSTOM_ID: associative-archiving-in-devonthink
 :END:
@@ -158,7 +162,7 @@ The three primitives of associative archiving as I outlined them in part
 I are: projects, associative tagging and an inbox. Here's how I
 implement each of these using DT.
 
-*** Projects
+** Projects
 :PROPERTIES:
 :CUSTOM_ID: projects
 :END:
@@ -180,7 +184,7 @@ contents.
 <img src="static/tag-as-project.png" width="100%">
 #+end_example
 
-*** Associative tagging
+** Associative tagging
 :PROPERTIES:
 :CUSTOM_ID: associative-tagging
 :END:
@@ -193,32 +197,32 @@ tags are more flexible than folders: deleting or renaming one won't
 remove associated documents or break other connections, it will just
 remove that tag.
 
-*Project tags* - correspond to a project as described in the section
+Project tags* - correspond to a project as described in the section
 above.
 
-*Author tags* - a tag for the author of a document. This is a bit more
+Author tags* - a tag for the author of a document. This is a bit more
 robust than relying on DT inferring the appropriate metadata, I've
 found, as PDFs and webpages sometimes don't contain the information
 appropriately for DT to pick up. Author tags exist in my archive in the
 format "lastname, firstname", e.g. "dean, jodi". Any tag that includes a
 comma I treat as an author tag.
 
-*Kind tags* - a tag that marks some quality of a document that I want to
+Kind tags* - a tag that marks some quality of a document that I want to
 track(i.e. it's 'kind'). This ranges from my own interpretations of the
 document ('interesting', 'difficult'), to its genre ('literature',
 'journalism'), to its medium ('podcast', 'video'), to some parenthetical
 note or impending course of action ('toread', 'reading', 'unread').
 
-*Journal tags* - the journal or publication source of documents ('duke
+Journal tags* - the journal or publication source of documents ('duke
 university press', 'jacobin', 'verso'). As in the case of author tags,
 this is more resilient than relying on metadata inference.
 
-*Field tags* - disciplinary or otherwise structuring fields in which
+Field tags* - disciplinary or otherwise structuring fields in which
 documents exist. I mainly use these as ways of capturing pockets of
 technical literature in computer science, i.e. 'databases',
 'decentralised', 'p2p'.
 
-*Course tags* - tags for seminars that I take or teach. All of the
+Course tags* - tags for seminars that I take or teach. All of the
 readings are tagged with the course tag ('MCM 2500 2020'). I used to use
 tags for particular weeks of content as well, but this gets complicated
 if certain documents are read in multiple courses (as they may be read
@@ -236,7 +240,7 @@ encourages this latter kind of discovery, and keeps categorisation from
 ossifying and stymieing creativity rather than supporting and
 structuring it.
 
-*** The inbox
+** The inbox
 :PROPERTIES:
 :CUSTOM_ID: the-inbox
 :END:
@@ -269,12 +273,12 @@ need to, and then once I have finished with them on Remarkable, I export
 them and replace the placeholder documents in DT with the annotated
 versions.
 
-** To be continued...
+* To be continued...
 :PROPERTIES:
 :CUSTOM_ID: to-be-continued
 :END:
 I only intended to have two parts, but in
-[[/associative-archiving-with-devonthink-3][Part III]] I'll explain how
+[[./devonthink-part-iii.org][Part III]] I'll explain how
 I manage annotations on documents in DT. As I'll explain in more depth
 there, this is slightly beyond the scope of DT as an 'archive' per se,
 as it gets into how I use my DT archive to write and produce my own
