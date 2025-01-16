@@ -1,4 +1,10 @@
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+  from = "/:splat" 
+  to = "/:splat"  
+  status = 200   
+
+[[redirects]]
+  from = "/:splat"     
+  to = "/live/:splat" 
+  status = 200       
+
