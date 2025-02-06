@@ -43,5 +43,5 @@ originally submitted for the handbook.
   </p>
 #+end_html
 
-[[https://lachlankermode.com/2022.09.21-deconstructing-urbit.pdf][Read
+[[https://lachlankermode.com/live/2022.09.21-deconstructing-urbit.pdf][Read
 the essay here]].
