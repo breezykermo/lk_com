@@ -4,7 +4,7 @@
 
 (If this website isn't rendering nicely or you want to read this
 offline, see the
-[[https://lachlankermode.com/2022.09.18-stranger-things.pdf][PDF
+[[https://lachlankermode.com/live/2022.09.18-stranger-things.pdf][PDF
 version]].)
 
 #+begin_html
