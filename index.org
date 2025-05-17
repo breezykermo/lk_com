@@ -13,8 +13,8 @@
 - [[https://cceai.ohrg.org/][Computing and Capitalism in the Era of AI]] - Brown University, Fall 2024.
 - [[https://cs-for-social-change.ohrg.org/][CS for Social Change]] - Brown University, Spring 2023.
 * Publications
-- The machine that therefore I am (forthcoming)
-- The cybernetic conjecture (forthcoming)
+- The machine that therefore I am (forthcoming).
+- The cybernetic conjecture (forthcoming).
 - [[https://openaccess.thecvf.com/content/WACV2022/html/DCruz_Detecting_Tear_Gas_Canisters_With_Limited_Training_Data_WACV_2022_paper.html][Detecting Tear Gas Canisters With Limited Training Data]] - WACV 2022. 
 - [[https://aiforsocialgood.github.io/neurips2019/accepted/track1/pdfs/68_aisg_neurips2019.pdf][Objects of violence: synthetic data for practical ML in human rights investigations]] - NeurIPS 2019, AI for Social Good track. 
 * Other writing 
