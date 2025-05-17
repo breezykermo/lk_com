@@ -4,7 +4,7 @@
 * About
 - PhD Candidate at [[https://www.brown.edu/][Brown University]]
 - Research Fellow at [[https://forensic-architecture.org/][Forensic Architecture]]
-- Thought Leader at [[https://www.ohrg.org/][Ohrg dot org]]
+- Software Lead at [[https://liminal-lab.org/][LIMINAL]]
 * Links
 - [[https://github.com/breezykermo][Github]]
 - [[https://keybase.io/lachlankermode][Keybase]]
@@ -13,19 +13,14 @@
 - [[https://cceai.ohrg.org/][Computing and Capitalism in the Era of AI]] - Brown University, Fall 2024.
 - [[https://cs-for-social-change.ohrg.org/][CS for Social Change]] - Brown University, Spring 2023.
 * Publications
+- The machine that therefore I am (forthcoming)
+- The cybernetic conjecture (forthcoming)
 - [[https://openaccess.thecvf.com/content/WACV2022/html/DCruz_Detecting_Tear_Gas_Canisters_With_Limited_Training_Data_WACV_2022_paper.html][Detecting Tear Gas Canisters With Limited Training Data]] - WACV 2022. 
 - [[https://aiforsocialgood.github.io/neurips2019/accepted/track1/pdfs/68_aisg_neurips2019.pdf][Objects of violence: synthetic data for practical ML in human rights investigations]] - NeurIPS 2019, AI for Social Good track. 
+* Other writing 
+- [[https://ohrg.org][Lachlan's Musings]] (my blog site).
 - [[https://forensic-architecture.org/investigation/cv-in-triple-chaser][Computer Vision in Triple Chaser]] - Forensic Architecture Open Source.
 - [[https://forensic-architecture.org/investigation/timemap-for-cartographic-platforms][Using Timemap for Cartographic Platforms]] - Forensic Architecture Open Source.
 
-* Writing 
-- [[./posts/deconstructing-urbit.org][Deconstructing Urbit: The Politics of Software as Infrastructure]]
-- [[./posts/on-stranger-things.org][On Stranger Things]]
-- [[./posts/documentary-is-not-a-name.org][Documentary Is/Not A Name]]
-- [[./posts/devonthink-part-iii.org][DEVONThink Part III]]
-- [[./posts/devonthink-part-ii.org][DEVONThink Part II]]
-- [[./posts/devonthink-part-i.org][DEVONThink Part I]]
-- [[./posts/on-gods-and-campervans.org][On Gods and Campervans]]
-- [[./posts/sweet-tooth-for-baristas.org][Sweet Tooth (for baristas)]]
-- [[./posts/a-comparison-of-elm-and-react.org][A Comparison of Elm and React]]
-- [[./posts/the-towpath-to-react-and-redux.org][The Towpath to React and Redux]]
+
+

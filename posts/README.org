@@ -1,7 +1,0 @@
-To generate a blog from here, cd into the directory and run:
-
-#+begin_src bash
-pandoc -s --bibliography $HOME/Brown\ Dropbox/Lachlan\ Kermode/lyt/references/master.bib --citeproc --csl $HOME/Brown\ Dropbox/Lachlan\ Kermode/lyt/references/chicago-name-date.csl -o $target $current_file 
-#+end_src
-
-Or: ~<leader>aeT~ from neovim.
