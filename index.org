@@ -3,12 +3,13 @@
 
 * About
 - PhD Candidate at [[https://www.brown.edu/][Brown University]]
+- Software Researcher at [[https://liminal-lab.org/][LIMINAL]]
 - Research Fellow at [[https://forensic-architecture.org/][Forensic Architecture]]
-- Software Lead at [[https://liminal-lab.org/][LIMINAL]]
 * Links
 - [[https://github.com/breezykermo][Github]]
 - [[https://keybase.io/lachlankermode][Keybase]]
 - [[https://www.linkedin.com/in/lachlankermode/][LinkedIn]]
+- [[https://bsky.app/profile/ohrg.org][Bluesky]]
 * Teaching
 - [[https://cceai.ohrg.org/][Computing and Capitalism in the Era of AI]] - Brown University, Fall 2024.
 - [[https://cs-for-social-change.ohrg.org/][CS for Social Change]] - Brown University, Spring 2023.
