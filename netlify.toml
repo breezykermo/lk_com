@@ -8,3 +8,9 @@
   to = "/live/:splat" 
   status = 200       
 
+[[redirects]]
+  from = "/resume"     
+  to = "/live/resume.pdf" 
+  status = 200       
+
+
